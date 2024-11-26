@@ -1,0 +1,56 @@
+#pragma once
+
+#define ID_TIMER_MOUSEMOVE 0x66 // (102) for msdev
+
+// Editor timers
+#define ID_BOLDBRC_TIMER 121
+#define ID_SINKME_TIMER 122
+#define ID_HELP_TIMER 126
+#define IDT_PREPROC_KEYUP 127
+#define ID_SINKFILE_TIMER 128
+#define ID_KEYUP_TIMER 131
+#define ID_ARGTEMPLATE_DISPLAY_TIMER 134
+#define ID_ARGTEMPLATE_TIMER 135
+#define ID_ARGTEMPLATEERASE_TIMER 136
+#define ID_ARGTEMPLATE_CHECKVS_TIMER 137
+#define ID_SINKME_TIMER2 138
+#define ID_ADDMETHOD_TIMER 139
+#define ID_ARGTEMPLATE_CHECKVS_TIMER2 140
+#define ID_CURSCOPEWORD_TIMER 141
+#define ID_TIMER_GETHINT 143
+#define ID_TIMER_CHECKFORSCROLL 144
+#define ID_TIMER_NUKEPOPUPS 145
+#define ID_TIMER_CheckMinihelp 146
+
+#define ID_TIMER_GETSCOPE 151
+
+#define VSNET_EXPANDED_TIMER 608
+#define HOVER_CLASSVIEW_TIMER 609
+#define HOVER_CLASSVIEW_OUTLINE_TIMER 610
+
+#define ID_TIMER_FIXECROLLBAR 6789
+#define ID_BOLDBRC_TIMER_FORCE 6790
+
+#define ID_GETBUFFER 9333
+#define ID_IME_TIMER 9334
+#define ID_UNDERLINE_ERRORS 9335 // timer to underline errors
+#define ID_TIMER_RTFCOPY 9336
+#define IDT_REPARSE_AFTER_PASTE 9337
+#define ID_DOC_MODIFIED_TIMER 9338
+#define ID_TIMER_RELOAD_LOCAL_DB 9339
+#define IDT_CopyClipboard 9340
+#define IDT_DelayInit 9341
+#define IDT_CHECK_INCREDIBUILD 9342
+
+#define IDT_EDDLL_ONIDLE 45000
+#define IDT_ADDIN_ONIDLE 45001
+#define IDT_CheckSolutionProjectsForUpdates 45002
+#define IDT_SolutionReload 45003
+#define IDT_SolutionReloadRetry 45004
+#define IDT_SolutionWorkspaceIndexerPing 45005
+#define IDT_SolutionWorkspaceForceRequest 45006
+
+#define IDT_GENERATOR_MIN 50000 // used by RegisterTimer in WindowsUtils.h
+#define IDT_GENERATOR_MAX 60000 // used by RegisterTimer in WindowsUtils.h
+
+#define ID_TIMER_CLOSE 332242

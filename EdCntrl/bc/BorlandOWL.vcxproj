@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B63F57A3-9B7E-49F0-B855-97FAFE2703A4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BorlandOWL</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Debug.props" />
+    <Import Project="..\..\32.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Release.props" />
+    <Import Project="..\..\32.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Debug.props" />
+    <Import Project="..\..\64.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Debug.props" />
+    <Import Project="..\..\arm64.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Release.props" />
+    <Import Project="..\..\64.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\VARootLevel2.props" />
+    <Import Project="..\..\Release.props" />
+    <Import Project="..\..\arm64.props" />
+    <Import Project="..\..\OutputDirs.props" />
+    <Import Project="..\..\Options.props" />
+    <Import Project="..\..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;_WINDOWS;__DEBUG=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;_WINDOWS;__DEBUG=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;_WINDOWS;__DEBUG=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_LIB;OWL=OWL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4458;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Rtl\Strings\OWLAppend1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLAppend2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLAppend3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLAssign.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLClone.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCompare1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCompare2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLContain.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCopy1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCopy2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCopy3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor10.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor11.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor12.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor13.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor14.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor4.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor5.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor6.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor8.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLCtor9.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFind1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFind2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFind3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFind4.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFndfrst.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFndfrstn.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFndlast.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLFndlastn.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLHash.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLInsert1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLInsert2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLMatch.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprasgn1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprasgn2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprasgn3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprcall1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprcall2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprcall3.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprcall4.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOpreql.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLOprplus.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLPrepend.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLRegexp.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLReplace.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLReserve.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLResize.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLRfind.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLStatus.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLStremove.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLStrings.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLStrip.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLSubstr1.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLSubstr2.cpp" />
+    <ClCompile Include="Rtl\Strings\OWLUprlwr.cpp" />
+    <ClCompile Include="Rtl\Except\Xalloc.cpp" />
+    <ClCompile Include="Rtl\Except\Xmsg.cpp" />
+    <ClCompile Include="Rtl\Misc\Checks.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="checks.h" />
+    <ClInclude Include="cstring.h" />
+    <ClInclude Include="except.h" />
+    <ClInclude Include="owlstring.h" />
+    <ClInclude Include="ref.h" />
+    <ClInclude Include="regexp.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ClassLib\stdtempl.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

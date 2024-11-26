@@ -1,0 +1,11 @@
+C:\Temp\LibProjectNet6\bin\Debug\net6.0\LibProjectNet6.deps.json
+C:\Temp\LibProjectNet6\bin\Debug\net6.0\LibProjectNet6.dll
+C:\Temp\LibProjectNet6\bin\Debug\net6.0\LibProjectNet6.pdb
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.AssemblyInfoInputs.cache
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.AssemblyInfo.cs
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.csproj.CoreCompileInputs.cache
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.dll
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\refint\LibProjectNet6.dll
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\LibProjectNet6.pdb
+C:\Temp\LibProjectNet6\obj\Debug\net6.0\ref\LibProjectNet6.dll

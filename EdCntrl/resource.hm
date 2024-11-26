@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by EdCntrl.rc
+//
+#define HIDC_TREE1                      0x80c60479    // IDD_VACLASSVIEW

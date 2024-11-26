@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Borland Base">
+      <UniqueIdentifier>{0833991a-2acb-463e-95ba-90ea45457472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borland Base\ClassLib">
+      <UniqueIdentifier>{a7dffbae-1d45-4e31-aa15-74b1d5f2f772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borland Base\Source">
+      <UniqueIdentifier>{30dc5fd8-d4c1-47ae-b00e-43d5f465e1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borland Base\Source\Strings">
+      <UniqueIdentifier>{382c3025-a75f-428c-a7ab-f7248edf3310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borland Base\Source\Except">
+      <UniqueIdentifier>{f790c028-754f-4d1a-af81-1f818e1e981f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Borland Base\Source\Misc">
+      <UniqueIdentifier>{50a319c7-fe1f-4a34-b2ef-45966d62538d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Rtl\Strings\OWLAppend1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLAppend2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLAppend3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLAssign.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLClone.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCompare1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCompare2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLContain.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCopy1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCopy2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCopy3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor10.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor11.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor12.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor13.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor14.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor4.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor5.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor6.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor8.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLCtor9.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFind1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFind2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFind3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFind4.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFndfrst.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFndfrstn.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFndlast.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLFndlastn.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLHash.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLInsert1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLInsert2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLMatch.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprasgn1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprasgn2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprasgn3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprcall1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprcall2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprcall3.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprcall4.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOpreql.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLOprplus.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLPrepend.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLRegexp.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLReplace.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLReserve.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLResize.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLRfind.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLStatus.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLStremove.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLStrings.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLStrip.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLSubstr1.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLSubstr2.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Strings\OWLUprlwr.cpp">
+      <Filter>Borland Base\Source\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Except\Xalloc.cpp">
+      <Filter>Borland Base\Source\Except</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Except\Xmsg.cpp">
+      <Filter>Borland Base\Source\Except</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtl\Misc\Checks.cpp">
+      <Filter>Borland Base\Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Borland Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="checks.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cstring.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="except.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ref.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="regexp.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassLib\stdtempl.h">
+      <Filter>Borland Base\ClassLib</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+    <ClInclude Include="owlstring.h">
+      <Filter>Borland Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

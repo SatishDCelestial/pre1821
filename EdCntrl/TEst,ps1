@@ -1,0 +1,17 @@
+# Set the directory path and output file path
+$directoryPath = "C:\va\VAProduct\VABuildTrunk"  # Replace with your directory path
+$outputFile = "C:\Demo\large_files.txt"  # Replace with your desired output file path
+
+# Define the file size threshold (in bytes). 100 MB = 104857600 bytes
+$sizeThreshold = 104857600
+
+# Get all files in the directory (including subdirectories) larger than the threshold
+$largeFiles = Get-ChildItem -Path $directoryPath -File -Recurse | Where-Object { $_.Length -gt $sizeThreshold }
+
+# Write the file paths and sizes to the output file
+$largeFiles | ForEach-Object {
+    "$($_.FullName) - $([math]::round($_.Length / 1MB, 2)) MB" | Out-File -FilePath $outputFile -Append
+}
+
+# Output a message to indicate completion
+Write-Output "Scan complete. Large files saved to $outputFile."

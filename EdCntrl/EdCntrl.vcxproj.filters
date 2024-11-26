@@ -1,0 +1,2431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4c6ecd38-d3b7-4765-a0ee-f8bd05cdc442}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7a83df9f-123c-48ab-beeb-0185101073a9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="addin">
+      <UniqueIdentifier>{5ff55ce5-e931-4821-9eb8-89fdf36e7da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WTKeyGen">
+      <UniqueIdentifier>{44856726-784a-42eb-8e94-765d8e1dfdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{af1652e4-f9ad-4eb7-bffb-13a6bfd7b612}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe;</Extensions>
+    </Filter>
+    <Filter Include="MySpell">
+      <UniqueIdentifier>{b338773c-7ca8-47ce-837b-962df52a8a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTMLDialog">
+      <UniqueIdentifier>{977c3e20-9745-4933-b961-360b3ba89a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VATE">
+      <UniqueIdentifier>{8b7286aa-fc61-47bd-bba7-0d6cc959aab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common %28shared headers%29">
+      <UniqueIdentifier>{8ed9378c-b638-4faf-8566-3184e7c8615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuXP">
+      <UniqueIdentifier>{509cef4e-ca33-4840-9ed9-5fed4bfd8d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VaOpsWin">
+      <UniqueIdentifier>{afd7961f-0208-4621-9f05-b3671645bb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoUpdate">
+      <UniqueIdentifier>{c5b82e69-e7d6-4266-9073-5bcc485c492b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{abd7e640-0cea-42d0-9e81-01f73e9bf60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Third Party">
+      <UniqueIdentifier>{98867578-a559-4ae4-8a51-0435cfad38ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Third Party\dynwindow">
+      <UniqueIdentifier>{2abec403-8026-402f-bba0-77afe97c4e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Third Party\mctree">
+      <UniqueIdentifier>{2c4450bc-13a9-4fce-88e6-2146b446356f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colours">
+      <UniqueIdentifier>{4fa5594a-61dd-49e8-8386-f19d10528f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{2b34148a-28bf-4455-b966-97c16026ec99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\XButtonXP">
+      <UniqueIdentifier>{d227d533-db55-4de5-99c4-8b3c501c03db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VaSeException">
+      <UniqueIdentifier>{68a2a46a-a920-48fe-a205-f39844ef36be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DPI help">
+      <UniqueIdentifier>{0d8929fb-544e-4a03-9d40-35bb74e99874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SmartFlow">
+      <UniqueIdentifier>{c5ea70e4-48bb-433e-b62b-88dfdae8a67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sanctuary">
+      <UniqueIdentifier>{dbae3fe4-284d-45e2-9ccd-480a69885516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebuggerPlugin">
+      <UniqueIdentifier>{0ed674f5-804a-4261-9180-95acfaa1eed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPCclient">
+      <UniqueIdentifier>{f013791f-eb89-45d7-9f73-1141832faff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{165fa0d5-57af-41a1-8de6-bd64d216a038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\sqlite">
+      <UniqueIdentifier>{50dca1c7-7a7c-4c76-bdac-2cefe3bd1a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppBuilder">
+      <UniqueIdentifier>{c53796f1-872f-487a-b22d-7481569c0de9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddClassMemberDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTemplateConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutotextManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClassList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BorderCWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildDate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeSignature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGraphOptionsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFromUsage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBFile\DBFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultAutotext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefListFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DevShell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChangeMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Directories.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DragDropTreeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDCNT.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDCNT2.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EdCntOLE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EdDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EolTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="expansion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractMethodDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastComboBoxListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileListCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterableSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindInWkspcDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindReferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindReferencesResultsFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindReferencesThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindTextDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindUsageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatSplitterWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreezeDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericMultiPrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericTreeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoDlg1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IdeSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Import.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IncToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBindings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayeredWindowHelperST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenseMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveOutlineFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogVersionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEFCompletionSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MISC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mparse2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mparsepp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Oleobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PARSE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseThrd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PooledThreadBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RBuffer.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferencesTreeSubclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferencesWndBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameReferencesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTFCopy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellCheckDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfxEd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubClassWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolListCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxColoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TER_MFC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TipOfTheDay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTipEditCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceWindowFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrlTT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Usage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VA_MRUs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAAutomation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VABrowseSym.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAClassView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VACompletionBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VACompletionSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VACompletionSetEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBFile\VADBFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VADialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAFileView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAOpenFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAParse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VARefactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAWorkspaceViews.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vc6RefResultsCloneToolwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpaceTab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WPF_ViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WTFStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WTString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\AIC.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\BuyTryDlg.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\EditCntrlWnd.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\EditParentWnd.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\MiniHelpFrm.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\NonViewSplitter.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\Register.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\ToolTipButton.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\ToolTipEditView.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\Armadillo\Armadillo.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\KeyGenerator.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\ProductKeyGenerator.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorArm.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorArmBase.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorBase.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXRenewalGenerator.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\WTValidate.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\affentry.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\affixmgr.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\csutil.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\hashmgr.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\munch.c">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\myspell.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\suggestmgr.cxx">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="myspell\WTHashList.cpp">
+      <Filter>MySpell</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLDialog\DocHostSite.cpp">
+      <Filter>HTMLDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLDialog\Html_Host_Handlers.cpp">
+      <Filter>HTMLDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLDialog\HtmlCtrl.cpp">
+      <Filter>HTMLDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLDialog\HtmlDialog.cpp">
+      <Filter>HTMLDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="HTMLDialog\HtmlScript.cpp">
+      <Filter>HTMLDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\ButtonXP.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\ComboBoxXP.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\Draw.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\MenuXP.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\StatusBarXP.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\ToolBarXP.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuXP\Tools.cpp">
+      <Filter>MenuXP</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpdate\AutoUpdater.cpp">
+      <Filter>AutoUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoUpdate\WTAutoUpdater.cpp">
+      <Filter>AutoUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="dynwindow\cdxCDynamicDialog.cpp">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="dynwindow\cdxCDynamicWnd.cpp">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="dynwindow\cdxCDynamicWndEx.cpp">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="dynwindow\cdxCSizeIconCtrl.cpp">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="mctree\ColumnTreeCtrl.cpp">
+      <Filter>Utils\Third Party\mctree</Filter>
+    </ClCompile>
+    <ClCompile Include="mctree\ColumnTreeWnd.cpp">
+      <Filter>Utils\Third Party\mctree</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorListControls.cpp">
+      <Filter>Colours</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourizedEdit.cpp">
+      <Filter>Colours</Filter>
+    </ClCompile>
+    <ClCompile Include="Colourizer.cpp">
+      <Filter>Colours</Filter>
+    </ClCompile>
+    <ClCompile Include="DSformat.cpp">
+      <Filter>Colours</Filter>
+    </ClCompile>
+    <ClCompile Include="DimEditCtrl.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrl2008.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlFixedGrid.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="XButtonXP\OddButton.cpp">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClCompile>
+    <ClCompile Include="XButtonXP\XButtonXP.cpp">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClCompile>
+    <ClCompile Include="XButtonXP\XThemeHelper.cpp">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClCompile>
+    <ClCompile Include="VASeException\SeException.cpp">
+      <Filter>VaSeException</Filter>
+    </ClCompile>
+    <ClCompile Include="VASeException\StackWalker.cpp">
+      <Filter>VaSeException</Filter>
+    </ClCompile>
+    <ClCompile Include="VASeException\VASeException.cpp">
+      <Filter>VaSeException</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFileText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InferType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionListener.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\StdAfx_Addin.cpp">
+      <Filter>addin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\StdAfx_WTKeyGen.cpp">
+      <Filter>WTKeyGen</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSyncManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VsSnippetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VsSnippetLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageListManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameFilesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFileDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentBitmapButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextOutDc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DpiCookbook\VsUIDpiHelper.cpp">
+      <Filter>DPI help</Filter>
+    </ClCompile>
+    <ClCompile Include="DpiCookbook\VsUIGdiplusImage.cpp">
+      <Filter>DPI help</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaAfxW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaHtmlDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAThemeDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAThemeUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationBarQuestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggerTools\DebuggerToolsCpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericComboBoxListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalCompareString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroduceVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VABrowseMembers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VASmartSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommentSkipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutotextReservedStrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VASmartSelect_Parsing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindSimilarLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutotextExpansion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaHashtagsFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includesDb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\sqlite\CppSQLite3.cpp">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\sqlite\sqlite3.c">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="HashtagsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritanceDb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgToolTipEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMissingCases.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalRefactoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncapsulateField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsHooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VASmartSelect_Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortSelectedLinesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParenSkipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertBetweenPointerAndInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastBitmapReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddForwardDeclaration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartFlow\phdl.cpp">
+      <Filter>SmartFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertPathDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\aes.cpp">
+      <Filter>SmartFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\SmartFlow\Helper\Encryption.cpp">
+      <Filter>SmartFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Sanctuary\RegisterSanctuary.cpp">
+      <Filter>Sanctuary</Filter>
+    </ClCompile>
+    <ClCompile Include="Sanctuary\WebRegistrationPrompt.cpp">
+      <Filter>Sanctuary</Filter>
+    </ClCompile>
+    <ClCompile Include="Sanctuary\ImportLicenseFileDlg.cpp">
+      <Filter>Sanctuary</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggerTools\VaDebuggerPluginService.cpp">
+      <Filter>DebuggerPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Utf32CharInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnicodeHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\ClientConnectionThread.cpp">
+      <Filter>IPCclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\IpcClient.cpp">
+      <Filter>IPCclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\IPC stats.cpp">
+      <Filter>IPCclient</Filter>
+    </ClCompile>
+    <ClCompile Include="DbMtxClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sanctuary\CheckoutDurationDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VaDelayLoadLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VASmartSelect_InvertExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAAutomation17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CppBuilder.cpp">
+      <Filter>CppBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="RadStudioPlugin.cpp">
+      <Filter>CppBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadStudio\RadStudioUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadStudio\RadStudioMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadStudio\RadStudioCompletion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RadStudio\RadStudioFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Addin\TrialElqDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rapidfuzz_amalgamated2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAWatermarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaintenanceRenewal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaintenanceRenewal_MultiUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CatLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstRunDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodsSorting\MethodsSorting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodsSorting\MethodsSortingCodePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PromoteLambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EdCntrl.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VAParseCodeGraph.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\DRAGCOPY.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DRAGMOVE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\go.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IDB_DEVCLWV.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pushPinLock.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pushPinUnlock.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RefactorIcons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsClone.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsCloneDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsCloneFoc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsCloneSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFind.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFindDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFindFoc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFindSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInheriance.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInherianceDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInherianceSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNext.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNextDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNextFoc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNextSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrev.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrevDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrevFoc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrevSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefresh.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefreshDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefreshFoc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefreshSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tallLogo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tomato.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TomatoTip.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vaIcons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VSNetSymbols7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VSNETSymbols8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\tests\VaAutomationTests\ast.txt" />
+    <None Include="res\go11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pushpin11.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pushpinunlock11.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\spinner_up.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\spinner_down.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\VSNETSymbols11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vaIcons11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFind.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNext.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrev.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefresh.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsClone.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFindSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsCloneDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsCloneSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsFindDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNextDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsNextSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrevDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsPrevSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefreshDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsRefreshSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInheriance.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInherianceSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsInherianceDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjects.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjectsDis.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjectsDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjectsSel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjectsSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refsAllProjects.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3dayExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddClassMemberDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgToolTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="assert_once.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoTemplateConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutotextManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClassList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BorderCWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeSignature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDataList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGraphOptionsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colourizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateFromUsage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrlBackspaceEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndTextW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseDirectoryLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBFile\DBFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultAutotext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefListFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DevShellAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DevShellService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Directories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DragDropTreeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDCNT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EdCntCWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EdCntCWndVs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EdcntWPF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EdDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EolTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Expansion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractMethodDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastComboBoxListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FILE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLineMarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileListCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOutlineFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterableSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filterDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindInWkspcDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindReferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindReferencesResultsFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindReferencesThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindTextDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUsageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatSplitterWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreezeDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericMultiPrompt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericTreeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GotoDlg1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapLook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IdeSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFindTargetWithTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incToken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITreeDropHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVaService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVaShellService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBindings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayeredWindowHelperST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LBToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="license.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenseMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveOutlineFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="locked_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LOG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogVersionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macroList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEFCompletionSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OLEOBJ.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OWLDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PARSE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseThrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseWorkItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseRedraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PooledThreadBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopulateTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferencesTreeSubclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferencesWndBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameReferencesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtfdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellBlockInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellCheckDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBarAnimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfxEd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubClassWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolListCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolPositions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolRemover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxColoring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSettingOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ter_mfc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipOfTheDay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TOKEN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTipEditCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceWindowFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentBitmapButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrlTT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Typomatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Usage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VA_MRUs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAAutomation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VABrowseMembers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VABrowseSym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAClassView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VACompletionBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VACompletionSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VACompletionSetEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBFile\VADBFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VADialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAFileView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAOpenFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseCodeGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseCPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseCS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseHTML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseScopeSuggestions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseTextOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAParseUC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vaparsevb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VARefactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaTimers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAWorkspaceViews.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vc6RefResultsCloneToolwnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vsFormatOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VSNetIconDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VsToolWindowPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpaceTab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WPF_ViewManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WrapCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wt_stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTComBSTR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wtcsym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WtException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTFStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\BuyTryDlg.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\BuyTryDlg_Strings.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\EditCntrlWnd.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\EditParentWnd.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\MiniHelpFrm.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\NonViewSplitter.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\Register.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\Register_Strings.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\ToolTipButton.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\ToolTipEditView.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\Armadillo\Armadillo.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArm.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArmBase.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorBase.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXRenewalGenerator.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\WTValidate.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\WTValidate_Strings.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildInfo.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myspell\munch.h">
+      <Filter>MySpell</Filter>
+    </ClInclude>
+    <ClInclude Include="myspell\WTHashList.h">
+      <Filter>MySpell</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLDialog\DocHostSite.h">
+      <Filter>HTMLDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLDialog\Html_Host_Handlers.h">
+      <Filter>HTMLDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLDialog\HtmlCtrl.h">
+      <Filter>HTMLDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLDialog\HtmlDialog.h">
+      <Filter>HTMLDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLDialog\HtmlScript.h">
+      <Filter>HTMLDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VATE\AutoTextDlgParams.h">
+      <Filter>VATE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\AssignOnExit.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\AutoHandle.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\call_mem_fun.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ConsoleWnd.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DeletePtr.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\FileVerInfo.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GlobalString.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Library.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\PerfTimer.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\TempAssign.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ThreadName.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\ButtonXP.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\ComboBoxXP.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\Draw.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\MenuXP.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\StatusBarXP.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\ToolbarXP.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\Tools.h">
+      <Filter>MenuXP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VAOpsWin\VaOpsWinParams.h">
+      <Filter>VaOpsWin</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoUpdate\AutoUpdater.h">
+      <Filter>AutoUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoUpdate\WTAutoUpdater.h">
+      <Filter>AutoUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="LockWindow.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RedirectRegistryToVA.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveDC.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_iterator.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_state.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_goran.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dynwindow\cdxCDynamicDialog.h">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="dynwindow\cdxCDynamicWnd.h">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="dynwindow\cdxCDynamicWndEx.h">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="dynwindow\cdxCSizeIconCtrl.h">
+      <Filter>Utils\Third Party\dynwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="mctree\ColumnTreeCtrl.h">
+      <Filter>Utils\Third Party\mctree</Filter>
+    </ClInclude>
+    <ClInclude Include="mctree\ColumnTreeWnd.h">
+      <Filter>Utils\Third Party\mctree</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorListControls.h">
+      <Filter>Colours</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>Colours</Filter>
+    </ClInclude>
+    <ClInclude Include="DimEditCtrl.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrl2008.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlFixedGrid.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="XButtonXP\CreateGrayscaleIcon.h">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClInclude>
+    <ClInclude Include="XButtonXP\OddButton.h">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClInclude>
+    <ClInclude Include="XButtonXP\XButtonXP.h">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClInclude>
+    <ClInclude Include="XButtonXP\XThemeHelper.h">
+      <Filter>Controls\XButtonXP</Filter>
+    </ClInclude>
+    <ClInclude Include="VASeException\SeException.h">
+      <Filter>VaSeException</Filter>
+    </ClInclude>
+    <ClInclude Include="VASeException\StackWalker.h">
+      <Filter>VaSeException</Filter>
+    </ClInclude>
+    <ClInclude Include="VASeException\VASeException.h">
+      <Filter>VaSeException</Filter>
+    </ClInclude>
+    <ClInclude Include="Guesses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoReferenceHighlighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ThreadStatic.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="LogElapsedTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFileText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InferType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ScopedIncrement.h">
+      <Filter>Common %28shared headers%29</Filter>
+    </ClInclude>
+    <ClInclude Include="focus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionLoadState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\StdAfx.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\StdAfx.h">
+      <Filter>addin</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSyncManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VsSnippetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VsSnippetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\KeyGenerator.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\ProductInfo.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\ProductKeyGenerator.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArmGenKey.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\VAXTrialGenerator.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WTKeyGen\wtKeyGenRes.h">
+      <Filter>WTKeyGen</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageListManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameFilesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateFileDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EdCnt_fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEdCnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\atlgdi.h">
+      <Filter>DPI help</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\ScopeGuard.h">
+      <Filter>DPI help</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\stdafx.h">
+      <Filter>DPI help</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\VsUIDpiHelper.h">
+      <Filter>DPI help</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\VsUIGdiplusImage.h">
+      <Filter>DPI help</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaAfxW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaHtmlDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAThemeDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAThemeUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextOutDc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationBarQuestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerTools\interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerTools\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuXP\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericComboBoxListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerTools\DebuggerToolsCpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroduceVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VASmartSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VASmartSelect_Parsing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommentSkipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindSimilarLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutotextExpansion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaHashtagsFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBFile\DbTypeId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTypeDbScope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includesDb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\sqlite\CppSQLite3.h">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\sqlite\sqlite3.h">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\sqlite\sqlite3ext.h">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="vaSqliteConfig.h">
+      <Filter>3rdparty\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinCriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VA_GDIPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashtagsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritanceDb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqliteDb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgToolTipEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMissingCases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalRefactoring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncapsulateField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsHooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VASmartSelect_Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="serial_for.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateHeapStringMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateHeapAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVaVsAddinClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VaAddinClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVaLicensing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortSelectedLinesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParenSkipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SemiColonDelimitedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertBetweenPointerAndInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tree_state_hashtags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastBitmapReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealPostfixType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddForwardDeclaration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartFlow\phdl.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\aes.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\stdint_VS2008.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\Encryption.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartFlow\phdl_config_test.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartFlow\phdl_config_production.h">
+      <Filter>SmartFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\ImportLicenseFileDlg.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\RegisterSanctuary.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\WebRegistrationPrompt.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\ISanctuaryClient.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\IVaAuxiliaryDll.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\IVaAccessFromAux.h">
+      <Filter>Sanctuary</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertPathDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerTools\VaDebuggerPluginService.h">
+      <Filter>DebuggerPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerTools\v1\VaDebuggerPluginService.Contract.h">
+      <Filter>DebuggerPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Utf32CharInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnicodeHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vaIPC\vaIPC\ClientConnectionThread.h">
+      <Filter>IPCclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vaIPC\vaIPC\IpcClient.h">
+      <Filter>IPCclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vaIPC\vaIPC\IPC stats.h">
+      <Filter>IPCclient</Filter>
+    </ClInclude>
+    <ClInclude Include="DBFile\DbTypeIdStrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vaIPC\vaIPC\vaIPCshared.h">
+      <Filter>IPCclient</Filter>
+    </ClInclude>
+    <ClInclude Include="DbFieldConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiCookbook\VsUIDpiAwareness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndDpiAware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sanctuary\CheckoutDurationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefactoringActive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="remote_heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\utils3264.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="npos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DllNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAAutomation17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppBuilder\IRadStudioHost.h">
+      <Filter>CppBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CppBuilder\IVisualAssistPlugin.h">
+      <Filter>CppBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CppBuilder.h">
+      <Filter>CppBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="RadStudioPlugin.h">
+      <Filter>CppBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="RadStudio\RadStudioUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RadStudio\RadStudioMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RadStudio\RadStudioCompletion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RadStudio\RadStudioFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Addin\TrialElqDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAWatermarks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileVerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaintenanceRenewal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaintenanceRenewal_MultiUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CatLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstRunDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PromoteLambda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodsSorting\MethodsSorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodsSorting\SimpleDiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodsSorting\MethodsSortingCodePart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodsSorting\LineReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="edcntrl.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\VSNETSymbols12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroupDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroupSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroup.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroupDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsNextInGroupSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroupDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroupSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroup.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroupDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refsPrevInGroupSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editbrowseClear.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editbrowseSearch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editbrowseClear.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\editbrowseSearch.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFile.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFile.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFileDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFileDis.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFileSel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hashGroupByFileSel.v11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DebuggerTools\VaDebuggerPlugin.vsdconfigxml">
+      <Filter>DebuggerPlugin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\tests\EdTests\VA.natvis" />
+  </ItemGroup>
+</Project>

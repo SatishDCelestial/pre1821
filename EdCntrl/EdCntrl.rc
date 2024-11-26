@@ -1,0 +1,1470 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <afxres.h>
+#include <richedit.h>
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GO                  BITMAP                  "res\\go.bmp"
+
+IDB_GO11                BITMAP                  "res\\go11.bmp"
+
+IDB_SPINNER_UP          BITMAP                  "res\\spinner_up.v11.bmp"
+
+IDB_SPINNER_DOWN        BITMAP                  "res\\spinner_down.v11.bmp"
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GENERICTREEDLG DIALOGEX 0, 0, 239, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE,"SysTreeView32",TVS_HASLINES | TVS_DISABLEDRAGDROP | TVS_CHECKBOXES | TVS_TRACKSELECT | TVS_INFOTIP | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,26,225,128
+    DEFPUSHBUTTON   "OK",IDOK,127,159,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,182,159,50,14
+    EDITTEXT        IDC_DIRECTIONS_LABEL,7,6,225,19,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_GENERICTREEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DEVCLVW             BITMAP                  "res\\IDB_DEVCLWV.bmp"
+
+IDB_TALLLOGO            BITMAP                  "tallLogo.bmp"
+
+VSNET_SYMBOLS           BITMAP                  "res\\VSNetSymbols7.bmp"
+
+VSNET_SYMBOLS8          BITMAP                  "res\\VSNETSymbols8.bmp"
+
+VSNET_SYMBOLS11         BITMAP                  "res\\VSNETSymbols11.bmp"
+
+VSNET_SYMBOLS12         BITMAP                  "res\\VSNETSymbols12.bmp"
+
+IDB_VAICONS             BITMAP                  "res\\vaIcons.bmp"
+
+IDB_VAICONS11           BITMAP                  "res\\vaIcons11.bmp"
+
+IDB_TOMATO_TIP          BITMAP                  "res\\TomatoTip.bmp"
+
+IDB_REFSFIND            BITMAP                  "res\\refsFind.bmp"
+
+IDB_REFSNEXT            BITMAP                  "res\\refsNext.bmp"
+
+IDB_REFSPREV            BITMAP                  "res\\refsPrev.bmp"
+
+IDB_REFSREFRESH         BITMAP                  "res\\refsRefresh.bmp"
+
+IDB_REFSCLONE           BITMAP                  "res\\refsClone.bmp"
+
+IDB_REFSFINDSEL         BITMAP                  "res\\refsFindSel.bmp"
+
+IDB_REFSCLONEDIS        BITMAP                  "res\\refsCloneDis.bmp"
+
+IDB_REFSCLONESEL        BITMAP                  "res\\refsCloneSel.bmp"
+
+IDB_REFSFINDDIS         BITMAP                  "res\\refsFindDis.bmp"
+
+IDB_REFSNEXTDIS         BITMAP                  "res\\refsNextDis.bmp"
+
+IDB_REFSNEXTSEL         BITMAP                  "res\\refsNextSel.bmp"
+
+IDB_REFSPREVDIS         BITMAP                  "res\\refsPrevDis.bmp"
+
+IDB_REFSPREVSEL         BITMAP                  "res\\refsPrevSel.bmp"
+
+IDB_REFREFRESHDIS       BITMAP                  "res\\refsRefreshDis.bmp"
+
+IDB_REFSREFRESHSEL      BITMAP                  "res\\refsRefreshSel.bmp"
+
+IDB_TOGGLE_INHERITANCE  BITMAP                  "res\\refsInheriance.bmp"
+
+IDB_TOGGLE_INHERITANCESEL BITMAP                  "res\\refsInherianceSel.bmp"
+
+IDB_TOGGLE_INHERITANCEDIS BITMAP                  "res\\refsInherianceDis.bmp"
+
+IDB_REFSFINDv11         BITMAP                  "res\\refsFind.v11.bmp"
+
+IDB_REFSNEXTv11         BITMAP                  "res\\refsNext.v11.bmp"
+
+IDB_REFSPREVv11         BITMAP                  "res\\refsPrev.v11.bmp"
+
+IDB_REFSREFRESHv11      BITMAP                  "res\\refsRefresh.v11.bmp"
+
+IDB_REFSCLONEv11        BITMAP                  "res\\refsClone.v11.bmp"
+
+IDB_REFSFINDSELv11      BITMAP                  "res\\refsFindSel.v11.bmp"
+
+IDB_REFSCLONEDISv11     BITMAP                  "res\\refsCloneDis.v11.bmp"
+
+IDB_REFSCLONESELv11     BITMAP                  "res\\refsCloneSel.v11.bmp"
+
+IDB_REFSFINDDISv11      BITMAP                  "res\\refsFindDis.v11.bmp"
+
+IDB_REFSNEXTDISv11      BITMAP                  "res\\refsNextDis.v11.bmp"
+
+IDB_REFSNEXTSELv11      BITMAP                  "res\\refsNextSel.v11.bmp"
+
+IDB_REFSPREVDISv11      BITMAP                  "res\\refsPrevDis.v11.bmp"
+
+IDB_REFSPREVSELv11      BITMAP                  "res\\refsPrevSel.v11.bmp"
+
+IDB_REFREFRESHDISv11    BITMAP                  "res\\refsRefreshDis.v11.bmp"
+
+IDB_REFSREFRESHSELv11   BITMAP                  "res\\refsRefreshSel.v11.bmp"
+
+IDB_TOGGLE_INHERITANCEv11 BITMAP                  "res\\refsInheriance.v11.bmp"
+
+IDB_TOGGLE_INHERITANCESELv11 BITMAP                  "res\\refsInherianceSel.v11.bmp"
+
+IDB_TOGGLE_INHERITANCEDISv11 BITMAP                  "res\\refsInherianceDis.v11.bmp"
+
+IDB_TOGGLE_ALLPROJECTS  BITMAP                  "res\\refsAllProjects.bmp"
+
+IDB_TOGGLE_ALLPROJECTSDIS BITMAP                  "res\\refsAllProjectsDis.bmp"
+
+IDB_TOGGLE_ALLPROJECTSDISv11 BITMAP                  "res\\refsAllProjectsDis.v11.bmp"
+
+IDB_TOGGLE_ALLPROJECTSSEL BITMAP                  "res\\refsAllProjectsSel.bmp"
+
+IDB_TOGGLE_ALLPROJECTSSELv11 BITMAP                  "res\\refsAllProjectsSel.v11.bmp"
+
+IDB_TOGGLE_ALLPROJECTSv11 BITMAP                  "res\\refsAllProjects.v11.bmp"
+
+IDB_TOGGLE_GROUPBYFILE  BITMAP                  "res\\hashGroupByFile.bmp"
+
+IDB_TOGGLE_GROUPBYFILEDIS BITMAP                  "res\\hashGroupByFileDis.bmp"
+
+IDB_TOGGLE_GROUPBYFILESEL BITMAP                  "res\\hashGroupByFileSel.bmp"
+
+IDB_TOGGLE_GROUPBYFILEv11 BITMAP                  "res\\hashGroupByFile.v11.bmp"
+
+IDB_TOGGLE_GROUPBYFILEDISv11 BITMAP                  "res\\hashGroupByFileDis.v11.bmp"
+
+IDB_TOGGLE_GROUPBYFILESELv11 BITMAP                  "res\\hashGroupByFileSel.v11.bmp"
+
+IDB_REFSNEXTINGROUP     BITMAP                  "res\\refsNextInGroup.bmp"
+
+IDB_REFSNEXTINGROUPDIS  BITMAP                  "res\\refsNextInGroupDis.bmp"
+
+IDB_REFSNEXTINGROUPSEL  BITMAP                  "res\\refsNextInGroupSel.bmp"
+
+IDB_REFSNEXTINGROUPv11  BITMAP                  "res\\refsNextInGroup.v11.bmp"
+
+IDB_REFSNEXTINGROUPDISv11 BITMAP                  "res\\refsNextInGroupDis.v11.bmp"
+
+IDB_REFSNEXTINGROUPSELv11 BITMAP                  "res\\refsNextInGroupSel.v11.bmp"
+
+IDB_REFSPREVINGROUP     BITMAP                  "res\\refsPrevInGroup.bmp"
+
+IDB_REFSPREVINGROUPDIS  BITMAP                  "res\\refsPrevInGroupDis.bmp"
+
+IDB_REFSPREVINGROUPSEL  BITMAP                  "res\\refsPrevInGroupSel.bmp"
+
+IDB_REFSPREVINGROUPv11  BITMAP                  "res\\refsPrevInGroup.v11.bmp"
+
+IDB_REFSPREVINGROUPDISv11 BITMAP                  "res\\refsPrevInGroupDis.v11.bmp"
+
+IDB_REFSPREVINGROUPSELv11 BITMAP                  "res\\refsPrevInGroupSel.v11.bmp"
+
+IDI_FIRST_RUN_LESS ICON                         "res\\firstUseLess.ico"
+
+IDI_FIRST_RUN_MORE ICON                         "res\\firstUseMore.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FINDDLG DIALOGEX 19, 6, 270, 83
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "&Find what:",-1,7,7,36,10, SS_CENTERIMAGE|NOT WS_GROUP
+    CONTROL         "",IDC_FINDEDIT,"ComboBoxEx32",CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,46,7,158,115
+    LTEXT           "Direction:",-1,7,24,158,10,SS_CENTERIMAGE|NOT WS_GROUP
+    CONTROL         "&Down",IDC_FINDDOWN,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,47,24,35,10
+    CONTROL         "&Up",IDC_FINDUP,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,94,24,25,10
+    CONTROL         "Match &case",IDC_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,47,38,80,14
+    CONTROL         "&Mark All",IDC_MARKALL,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,154,64,50,14
+    DEFPUSHBUTTON   "Find &Next",IDC_FIND_NEXT,213,7,50,14,BS_CENTER
+    PUSHBUTTON      "Find &Prev",IDC_FIND_PREV,213,26,50,14,BS_CENTER
+    PUSHBUTTON      "&Go To",IDC_GOTO,213,45,50,14,BS_CENTER
+    PUSHBUTTON      "Close",IDCANCEL,213,64,50,14,BS_CENTER
+END
+
+IDD_REGISTER_SINGLE_ENTRY DIALOGEX 0, 0, 364, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Enter Key"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_KEY,5,17,354,43,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,129,66,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,184,66,50,14
+    LTEXT           "Paste all lines of your &key:",IDC_STATIC,7,7,352,8
+END
+
+IDD_REGISTER_SANCTUARY DIALOGEX 0, 0, 373, 257
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Sanctuary Registration Dlg"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "License Information",IDC_STATIC,5,10,362,62
+    LTEXT           "&Serial Number",IDC_STATIC,13,23,46,8
+    EDITTEXT        IDC_EDIT_SERIAL_NUMBER,13,36,347,14,ES_AUTOHSCROLL
+	CONTROL         "Need a trial serial number?",IDC_LINK_GET_TRIAL, "Static", WS_TABSTOP, 273, 23, 85, 12
+    LTEXT           "Registration code:",IDC_STATIC,13,57,70,8
+    EDITTEXT        IDC_EDIT_REGISTRATION_CODE,90,57,70,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "License Portal",IDC_STATIC,5,84,362,82
+    LTEXT           "&Name or Email",IDC_STATIC,13,97,52,8
+    EDITTEXT        IDC_EDIT_LOGIN_NAME,13,110,348,14,ES_AUTOHSCROLL
+	CONTROL         "Create account", IDC_LINK_CREATE_ACCOUNT, "Static", WS_TABSTOP, 312, 97, 50, 12
+    LTEXT           "&Password",IDC_STATIC,13,131,34,8
+    EDITTEXT        IDC_EDIT_LOGIN_PASSWORD,13,144,348,14,ES_PASSWORD | ES_AUTOHSCROLL
+	CONTROL         "Reset password", IDC_LINK_RESET_PASSWORD, "Static", WS_TABSTOP, 310, 131, 55, 12
+    DEFPUSHBUTTON   "&Register",IDOK,256,237,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,317,237,50,14
+	CONTROL         "Visit instructions for registration", IDC_LINK_HELP_REGISTRATION, "Static", WS_TABSTOP, 9, 175, 242, 12
+	CONTROL         "Use web registration if you have trouble connecting", IDC_LINK_WEB_REGISTRATION, "Static", WS_TABSTOP, 9, 188, 242, 12
+	CONTROL         "Import license file", IDC_LINK_IMPORT_REGISTRATION_FILE, "Static", WS_TABSTOP, 9, 201, 242, 12
+	CONTROL         "Get assistance with registration", IDC_LINK_SUPPORT, "Static", WS_TABSTOP, 9, 214, 242, 12
+	CONTROL         "Enter a legacy, two-line activation key", IDC_LINK_LEGACY_REGISTRATION, "Static", WS_TABSTOP, 9, 227, 242, 12
+	CONTROL         "View privacy policy", IDC_LINK_PRIVACY_POLICY, "Static", WS_TABSTOP, 9, 240, 60, 12
+END
+
+IDD_WEB_ACTIVATION_PROMPT DIALOGEX 0, 0, 441, 85
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Registration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,166,66,50,14
+    PUSHBUTTON      "No",IDCANCEL,226,66,50,14
+    PUSHBUTTON      "&Copy URL",IDC_BUTTON_COPY,386,26,50,14
+    EDITTEXT        IDC_EDIT_URL,5,26,375,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "If you experience trouble connecting to the registration server, you can register in a web browser.",IDC_STATIC,5,8,348,8
+    LTEXT           "Launch web registration?",IDC_STATIC,5,48,178,8
+END
+
+IDD_IMPORT_LICENSE_FILE DIALOGEX 0, 0, 319, 59
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist License Importer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "&License file:",IDC_STATIC,5,5,178,8
+    EDITTEXT        IDC_EDIT_FILE,5,17,292,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&...",IDC_BUTTON_BROWSE,297,17,17,14
+    DEFPUSHBUTTON   "&Import",IDOK,207,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,264,40,50,14
+END
+
+IDD_EMPTY DIALOGEX 0, 0, 200, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION ""
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_VAOPENFILEDLG DIALOGEX 0, 0, 465, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Open File in Solution"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_FILTEREDIT,5,124,455,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILTEREDIT2,5,140,395,14,ES_AUTOHSCROLL
+    CONTROL         "&Show only files in the current solution",IDC_ALL_OPEN_FILES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,157,190,10
+    CONTROL         "Use &fuzzy search",IDC_USE_FUZZY_SEARCH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,203,157,80,10
+    DEFPUSHBUTTON   "OK",IDOK,410,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,410,156,50,14
+    CONTROL         "List1",IDC_FILELIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,5,5,455,115
+END
+
+IDD_LICENSEDLG DIALOGEX 0, 0, 342, 138
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Visual Assist Trial"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&Buy",IDC_BUYNOW,285,98,50,14
+    PUSHBUTTON      "&Register",IDC_LICENSE,285,80,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,285,116,50,14
+    PUSHBUTTON      "Re&vert",IDC_REVERTBUILD,284,7,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&Try",IDC_TRY,285,62,50,14,WS_DISABLED
+    LTEXT           "",IDC_INSTRUCTIONS,81,10,195,121
+    CONTROL         IDB_TALLLOGO,IDB_TALLLOGO,"Static",SS_BITMAP | SS_SUNKEN,7,7,65,124
+END
+
+IDD_SPELL DIALOGEX 0, 0, 186, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTERMOUSE | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Check Spelling"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "&Change",IDC_CHANGE,129,7,50,14,WS_DISABLED
+    PUSHBUTTON      "&Ignore",IDC_IGNORE,129,24,50,14
+    PUSHBUTTON      "I&gnore All",IDC_IGNOREALL,129,41,50,14
+    PUSHBUTTON      "&Add",IDC_ADD,129,58,50,14
+    PUSHBUTTON      "&Options",IDC_OPTIONS,129,92,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,129,75,50,14
+    EDITTEXT        IDC_EDIT1,7,7,111,15,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST1,7,25,111,150,LBS_OWNERDRAWVARIABLE | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_VABROWSESYM DIALOGEX 0, 0, 459, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Find Symbol"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_FILTEREDIT,5,140,389,14,ES_AUTOHSCROLL
+    CONTROL         "&Show only symbols defined in current solution",IDC_ALL_OPEN_FILES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,159,163,10
+    CONTROL         "Only &classes, structs && namespaces",IDC_ONLY_SHOW_TYPES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,159,132,10
+    CONTROL         "Use &fuzzy search",IDC_USE_FUZZY_SEARCH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,314,159,80,10
+    DEFPUSHBUTTON   "OK",IDOK,404,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,404,156,50,14
+    CONTROL         "List1",IDC_ITEMLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,5,5,449,131
+END
+
+IDD_VACLASSVIEW DIALOGEX 0, 0, 218, 189
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_FULLROWSELECT | TVS_INFOTIP | WS_GROUP | WS_TABSTOP,0,14,218,174,WS_EX_CLIENTEDGE,HIDC_TREE1
+    PUSHBUTTON      "Button1",IDC_BUTTON1,200,1,17,10,BS_ICON | BS_FLAT | NOT WS_TABSTOP
+END
+
+IDD_VACLASSVIEWv11 DIALOGEX 0, 0, 218, 189
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_FULLROWSELECT | TVS_INFOTIP | WS_GROUP | WS_TABSTOP,0,14,218,174,0,HIDC_TREE1
+    PUSHBUTTON      "Button1",IDC_BUTTON1,200,1,17,10,BS_ICON | BS_FLAT | NOT WS_TABSTOP
+END
+
+IDD_FILEOUTLINE DIALOGEX 0, 0, 135, 70
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASLINES | TVS_LINESATROOT | TVS_FULLROWSELECT | TVS_INFOTIP | WS_TABSTOP,0,0,135,70
+END
+
+IDD_FILEVIEW DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree2",IDC_TREE1,"SysTreeView32",TVS_INFOTIP | WS_BORDER | WS_GROUP | WS_TABSTOP,0,27,186,62
+END
+
+IDD_FILEVIEWv11 DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree2",IDC_TREE1,"SysTreeView32",TVS_INFOTIP | WS_GROUP | WS_TABSTOP,0,27,186,62
+END
+
+// caption/title is actually set by the html content
+
+IDD_TIPOFTHEDAY DIALOGEX 0, 0, 399, 292
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Tip of the Day"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Static",IDC_STATIC_HTML,7,7,385,262
+    CONTROL         "&Show tips at startup",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,276,92,14
+    PUSHBUTTON      "&Previous tip",IDC_PREVTIP,149,276,48,14
+    PUSHBUTTON      "&Next tip",IDC_NEXTTIP,202,276,48,14
+    PUSHBUTTON      "&Close",IDCANCEL,342,276,48,14
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 313, 220
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Visual Assist"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,261,202,48,14
+    PUSHBUTTON      "&Copy Info",ID_EDIT_COPY,5,202,48,14
+    LTEXT           "",IDC_STATIC_HTML,0,0,313,220
+END
+
+IDD_RENAMEREFERENCES DIALOGEX 0, 0, 389, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Rename"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATUS,5,5,244,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,5,20,268,14,ES_AUTOHSCROLL
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,37,194,10
+    CONTROL         "Display uses in co&mments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,37,177,10
+    CONTROL         "&Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,49,194,10
+    CONTROL         "Create &Unreal Engine Core Redirect",IDC_CHK_CORE_REDIRECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,49,177,10
+    DEFPUSHBUTTON   "&Rename",IDC_RENAME,280,20,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,20,50,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,62,379,102
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+END
+
+IDD_CREATEMETHODDLG DIALOGEX 0, 0, 261, 60
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Add Member"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Member signature:",IDC_EDIT1_LABEL,7,7,247,8
+    EDITTEXT        IDC_EDIT1,7,18,247,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,150,39,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,39,50,14
+END
+
+IDD_EXTRACTMETHOD DIALOGEX 0, 0, 261, 116
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Extract Method"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&New method name:",IDC_EDIT1_LABEL,7,7,247,8
+    EDITTEXT        IDC_EDIT1,7,18,247,14,ES_AUTOHSCROLL
+    LTEXT           "Preview of method signature:",IDC_EDIT2_LABEL,7,39,247,8
+    EDITTEXT        IDC_EDIT2,7,50,247,28,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN
+    CONTROL         "Extract as &Free Function",IDC_EXTRACT_AS_FREE_FUNC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,86,111,10
+    CONTROL         "&Extract to Source",IDC_EXTRACT_TO_SOURCE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,96,111,13
+    DEFPUSHBUTTON   "OK",IDOK,150,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,95,50,14
+END
+
+IDD_VAFINDUSAGES DIALOGEX 0, 0, 443, 218
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_WINDOWEDGE | WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATUS,106,1,250,10
+    CONTROL         "Highlight all",IDC_HIGHLIGHTAll,"Button",BS_AUTOCHECKBOX | BS_VCENTER | NOT WS_VISIBLE,373,1,60,10
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_HSCROLL | WS_TABSTOP,0,11,443,205,WS_EX_STATICEDGE
+    PUSHBUTTON      "Stop",IDCANCEL,406,1,27,10,BS_FLAT
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,269,1,127,10
+    CONTROL         "",IDC_CLOSE,"Button",BS_OWNERDRAW | BS_CENTER | BS_VCENTER | BS_FLAT,436,1,6,6
+    PUSHBUTTON      "N",IDC_NEXT,1,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "P",IDC_PREVIOUS,16,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "R",IDC_REFRESH,31,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "F",IDC_FINDINRESULTS,46,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "X",IDC_FIND_INHERITED_REFERENCES,61,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "S",IDC_FIND_REFERENCES_ALL_PROJECTS,76,1,14,10,NOT WS_TABSTOP
+    PUSHBUTTON      "C",IDC_CLONERESULTS,91,1,14,10,NOT WS_TABSTOP
+END
+
+IDD_GenericMultiPrompt DIALOGEX 0, 0, 261, 126
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Generic Multi-Prompt"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Option 1",IDC_RADIOBUTTON1,"Button",BS_AUTORADIOBUTTON,10,20,240,10
+    CONTROL         "Option 2",IDC_RADIOBUTTON2,"Button",BS_AUTORADIOBUTTON,10,33,240,10
+    CONTROL         "Option 3",IDC_RADIOBUTTON3,"Button",BS_AUTORADIOBUTTON,10,46,240,10
+    CONTROL         "Option 4",IDC_RADIOBUTTON4,"Button",BS_AUTORADIOBUTTON,10,59,240,10
+    LTEXT           "Default label:",IDC_EDIT1_LABEL,7,77,247,8
+    EDITTEXT        IDC_EDIT1,7,88,247,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,150,109,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,109,50,14
+    LTEXT           "Static",IDC_SELECTION_LABEL,7,7,245,8
+END
+
+IDD_VAPROGRESS DIALOGEX 0, 0, 229, 24
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,172,7,50,10
+    LTEXT           "Building graph...",IDC_STATIC,7,7,69,10
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,72,7,80,10
+END
+
+IDD_GRAPH_OPTIONS DIALOGEX 0, 0, 321, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VA Graph Solution"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,116,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,264,116,50,14
+    LTEXT           "Graph Options:",IDC_STATIC,7,7,87,11
+    CONTROL         "Class",IDC_RADIO_GROUP_BY_CLASS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,23,29,33,10
+    CONTROL         "Group classes by project, namespace, and directories.",IDC_RADIO_GROUP_BY_NAMESPACE,
+                    "Button",BS_AUTORADIOBUTTON,23,42,190,10
+    GROUPBOX        "Group by:",IDC_STATIC,17,18,283,40
+    GROUPBOX        "Link by:",IDC_STATIC,17,65,285,40
+    CONTROL         "Function calls only",IDC_RADIO_LINK_BY_CALLS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,23,75,74,10
+    CONTROL         "All references",IDC_RADIO_LINK_BY_ALL_REFERENCES,"Button",BS_AUTORADIOBUTTON,23,88,60,10
+END
+
+IDD_RENAMEFILES DIALOGEX 0, 0, 331, 182
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Rename Files"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,5,16,210,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Rename",IDC_RENAME,222,16,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,276,16,50,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,35,321,142
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,221,0,105,14
+    LTEXT           "",IDC_STATUS,5,5,321,8,SS_CENTERIMAGE
+END
+
+IDD_CREATEFILEDLG DIALOGEX 0, 0, 329, 75
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Create File"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Name:",IDC_STATIC,7,8,22,8
+    EDITTEXT        IDC_EDIT_NAME,42,7,280,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse...",IDC_BROWSE_FOR_DIR,285,7,40,14, NOT WS_VISIBLE
+    LTEXT           "Location:",IDC_STATIC,7,24,30,11
+    LTEXT           "static", IDC_STATIC_LOCATION, 42, 24, 280, 11
+    CONTROL         "#&include new file",IDC_CHECK_INCLUDE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,42,40,280,10
+    LTEXT           "",IDC_STATUS,7,60,206,8
+    DEFPUSHBUTTON   "OK",IDOK,217,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,272,54,50,14
+END
+
+IDD_CHANGESIGNATURE DIALOGEX 0, 0, 389, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Change Signature"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATUS,5,5,379,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,5,20,268,14,ES_AUTOHSCROLL
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,37,194,10
+    CONTROL         "Display uses in co&mments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,37,177,10
+    CONTROL         "&Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,49,194,10
+    CONTROL         "Create &Unreal Engine Core Redirect",IDC_CHK_CORE_REDIRECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,49,177,10
+    DEFPUSHBUTTON   "OK",IDC_RENAME,280,20,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,20,50,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,62,379,98
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+    LTEXT           "",IDC_WARNING,5,161,379,8,NOT WS_VISIBLE
+END
+
+IDD_CHANGESIGNATURE_ARG DIALOGEX 0, 0, 277, 65
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Change Signature"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,5,46,202,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Continue",IDOK,222,5,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,222,21,50,14
+    LTEXT           "Choose value to use when updating callers\nccc\nccc",IDC_EDIT2_LABEL,5,5,202,29
+    LTEXT           "const int *theVeryLongNewArg",IDC_EDIT1_LABEL,5,34,206,8
+END
+
+IDD_MAINTENANCERENEWAL DIALOGEX 0, 0, 223, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Maintenance Renewal"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,59,74,50,14
+    PUSHBUTTON      "&No, thanks",IDCANCEL,113,74,50,14
+    LTEXT           "Your software maintenance, which includes software updates and priority support, [is about to expire|expired recently]. Would you like to get a quote to renew maintenance, or email a request to the license holder, foo@bar.com?",IDC_STATIC_MESSAGE,7,7,209,40
+    CONTROL         "&Remind me later",IDC_CHECK_REMIND_LATER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,52,67,10
+END
+
+IDD_MAINTENANCERENEWAL_MULTIUSER DIALOGEX 0, 0, 237, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Maintenance Renewal"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Close",IDCANCEL,148,73,50,14
+    PUSHBUTTON      "Get &Quote",IDC_BUTTON_GETQUOTE,38,73,50,14
+    PUSHBUTTON      "&Email Request",IDC_BUTTON_EMAIL,94,73,50,14
+    LTEXT           "Your software maintenance, which includes software updates and priority support, [is about to expire|expired recently]. Would you like to get a quote to renew maintenance, or email a request to the license holder, foo@bar.com?",IDC_STATIC_MESSAGE,7,7,223,39
+    CONTROL         "&Remind me later",IDC_CHECK_REMINDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,52,67,10
+END
+
+IDD_NAVBAR_QUESTION DIALOGEX 0, 0, 263, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Visual Assist Navigation Bar"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,80,50,14
+    PUSHBUTTON      "No, thanks",IDCANCEL,138,80,50,14
+    CONTROL         "&Ask me later",IDC_CHECK_ASKMELATER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,58,55,10
+    LTEXT           "Limited to 256 characters, setting text at run-time.",IDC_NAVBAR_MESSAGE,7,7,247,47
+END
+
+IDD_VABROWSEMEMBERS DIALOGEX 0, 0, 459, 175
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Find Member"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_FILTEREDIT,5,140,389,14,ES_AUTOHSCROLL
+    CONTROL         "HIDDEN",IDC_ALL_OPEN_FILES,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,5,159,45,10
+    CONTROL         "&Show symbols from base classes",IDC_SHOW_BASE_MEMBERS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,159,163,10
+    CONTROL         "Sort by symbol &type",IDC_SORT_BY_TYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,175,159,132,10
+    CONTROL         "Use &fuzzy search",IDC_USE_FUZZY_SEARCH,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,314,159,80,10
+    DEFPUSHBUTTON   "OK",IDOK,404,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,404,156,50,14
+    CONTROL         "List1",IDC_ITEMLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDATA | WS_BORDER | WS_TABSTOP,5,5,449,131
+END
+
+IDD_VAHASHTAGS DIALOGEX 0, 0, 443, 218
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+EXSTYLE WS_EX_WINDOWEDGE | WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_HSCROLL | WS_TABSTOP,0,14,443,204,WS_EX_STATICEDGE
+    PUSHBUTTON      "N",IDC_NEXT,1,1,12,11,NOT WS_TABSTOP
+    PUSHBUTTON      "P",IDC_PREVIOUS,14,1,12,11,NOT WS_TABSTOP
+    PUSHBUTTON      "NG",IDC_NEXT_IN_GROUP,27,1,12,11,NOT WS_TABSTOP
+    PUSHBUTTON      "PG",IDC_PREV_IN_GROUP,40,1,12,11,NOT WS_TABSTOP
+    PUSHBUTTON      "D",IDC_HASHTAGS_GROUPBYFILE,53,1,12,11,NOT WS_TABSTOP
+    EDITTEXT        IDC_HASHTAGS_SEARCH,66,1,376,11,ES_AUTOHSCROLL
+END
+
+IDD_ENCAPSULATEFIELD DIALOGEX 0, 0, 389, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Encapsulate Field"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATUS,5,5,244,13,SS_CENTERIMAGE
+    LTEXT           "Setter name (or empty):",IDC_EDIT2_LABEL,149,5,123,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,5,20,142,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SECOND,149,20,123,14,ES_AUTOHSCROLL
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,37,165,10
+    CONTROL         "&Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,49,91,10
+    LTEXT           "Field visibility",IDC_STATIC_ENC_FIELD,203,38,45,8
+    CONTROL         "pri&vate",IDC_RADIO_ENC_FIELD_PRIVATE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,250,37,35,10
+    CONTROL         "pro&tected",IDC_RADIO_ENC_FIELD_PROTECTED,"Button",BS_AUTORADIOBUTTON,288,37,45,10
+    CONTROL         "n&o change",IDC_RADIO_ENC_FIELD_NONE,"Button",BS_AUTORADIOBUTTON,336,37,48,10
+    CONTROL         "&Public accessor visibility",IDC_CHECK_ENC_FIELD_PUBLIC_ACCESSORS,
+                    "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,207,49,134,10
+    DEFPUSHBUTTON   "OK",IDC_RENAME,280,20,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,20,50,14
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,62,379,98
+    CONTROL         "int&ernal",IDC_RADIO_ENC_FIELD_INTERNAL,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,254,49,40,10
+    CONTROL         "Display uses in co&mments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,207,154,177,10
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+    LTEXT           "",IDC_WARNING,5,161,379,8,NOT WS_VISIBLE
+END
+
+IDD_SORTSELECTEDLINES DIALOGEX 0, 0, 151, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Sort Selected Lines"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "&Ascending",IDC_SSL_ASCENDING,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,7,7,52,10
+    CONTROL         "&Descending",IDC_SSL_DESCENDING,"Button",BS_AUTORADIOBUTTON,7,19,53,10
+    CONTROL         "Case-&sensitive",IDC_SSL_SENSITIVE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,77,7,67,10
+    CONTROL         "Case-&insensitive",IDC_SSL_INSENSITIVE,"Button",BS_AUTORADIOBUTTON,77,19,67,10
+    DEFPUSHBUTTON   "OK",IDOK,39,47,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,94,47,50,14
+END
+
+IDD_CONVERT_POINTER_TO_INSTANCE DIALOGEX 0, 0, 389, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Convert Between Pointer and Instance"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,31,379,108
+    DEFPUSHBUTTON   "OK",IDC_RENAME,279,150,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,150,50,14
+    LTEXT           "",IDC_STATUS,5,5,379,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,5,72,268,14,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,185,59,163,10
+    CONTROL         "&Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,24,58,91,10
+    CONTROL         "Display uses in co&mments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,207,127,177,10
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+    LTEXT           "",IDC_WARNING,5,142,379,8,NOT WS_VISIBLE
+END
+
+IDD_CONVERT_INSTANCE_TO_POINTER DIALOGEX 0, 0, 389, 233
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Convert Between Pointer and Instance"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "&raw with manual management of lifetime, e.g. 'delete foo'",IDC_RADIO_CONVERT_RAW,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,14,25,217,10
+    CONTROL         "&unique_ptr via make_unique()",IDC_RADIO_CONVERT_UNIQUE_PTR,
+                    "Button",BS_AUTORADIOBUTTON,14,36,140,10
+    CONTROL         "&shared_ptr via make_shared()",IDC_RADIO_CONVERT_SHARED_PTR,
+                    "Button",BS_AUTORADIOBUTTON,14,48,137,10
+    CONTROL         "custo&m via function template",IDC_RADIO_CONVERT_CUSTOM_SMART_PTR,
+                    "Button",BS_AUTORADIOBUTTON,14,60,114,10
+    EDITTEXT        IDC_EDIT1,129,58,68,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_CUSTOM_TYPE,226,58,68,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "Use '&auto' in pointer declaration",IDC_CHECK_USE_AUTO_WITH_CONVERT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,74,140,10
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,89,379,114
+    DEFPUSHBUTTON   "OK",IDC_RENAME,279,214,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,214,50,14
+    LTEXT           "",IDC_STATUS,5,2,379,13,SS_CENTERIMAGE
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,185,102,163,10
+    CONTROL         "Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,24,109,91,10
+    CONTROL         "Display uses in comments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,207,127,177,10
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+    LTEXT           "",IDC_WARNING,5,142,379,8,NOT WS_VISIBLE
+    LTEXT           "Pointer type:",IDC_STATIC_CONVERT_POINTER_TYPE,5,15,43,8
+    LTEXT           "of type",IDC_STATIC_OF_TYPE,200,61,24,8
+END
+
+IDD_INSERTPATH DIALOGEX 0, 0, 339, 133
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Insert Path"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,228,113,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,282,113,50,14
+    LTEXT           "&Path:",IDC_STATICPATHLABEL,7,7,18,8
+    EDITTEXT        IDC_EDITPATH,7,16,295,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "...",IDC_BUTTONPATH,305,16,27,14
+    CONTROL         "&Absolute",IDC_RADIOABSOLUTE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,40,47,10
+    CONTROL         "&Relative to current:",IDC_RADIORELATIVE,"Button",BS_AUTORADIOBUTTON,7,52,75,10
+    CONTROL         "&File",IDC_RADIOCURRENTFILE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,91,52,27,10
+    CONTROL         "Pr&oject",IDC_RADIOPROJECT,"Button",BS_AUTORADIOBUTTON,123,52,39,10
+    CONTROL         "&Solution",IDC_RADIOSOLUTION,"Button",BS_AUTORADIOBUTTON,167,52,42,10
+    CONTROL         "&Use forward slashes",IDC_FWDSLASH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,70,80,10
+    LTEXT           "Preview:",IDC_STATICPREVIEWLABEL,7,87,30,8
+    EDITTEXT        IDC_EDITPREVIEW,7,95,325,14,ES_READONLY | NOT WS_TABSTOP
+END
+
+IDD_CONVERTENUM DIALOGEX 0, 0, 389, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Convert Unscoped Enum to Scoped Enum"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Display &inherited and overridden references",IDC_FIND_INHERITED_REFERENCES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,21,165,10
+    CONTROL         "&Search all projects",IDC_CHK_ALL_PROJECTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,33,91,10
+    EDITTEXT        IDC_EDIT1,13,64,268,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,5,47,379,97
+    DEFPUSHBUTTON   "OK",IDC_RENAME,280,147,50,14,WS_DISABLED
+    PUSHBUTTON      "&Cancel",IDCANCEL,334,147,50,14
+    CONTROL         "Display uses in co&mments and strings",IDC_COMMENTS,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,195,131,177,10
+    LTEXT           "",IDC_STATUS,5,5,379,13,SS_CENTERIMAGE
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,279,5,105,14
+    LTEXT           "",IDC_WARNING,5,161,379,8,NOT WS_VISIBLE
+END
+
+IDD_ENCAPSULATEFIELD_CPPB DIALOGEX 0, 0, 389, 216
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Encapsulate Field"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Encapsulate as", IDC_STATIC_ENCTYPE_CPPB, 5, 5, 50, 8, SS_CENTERIMAGE
+    CONTROL         "C++ &Builder Property", IDC_RADIO_ENC_FIELD_PROPERTY_CPPB, "Button", BS_AUTORADIOBUTTON | WS_GROUP, 57, 4, 82, 10
+    CONTROL         "C++ &Getter/Setter", IDC_RADIO_ENC_FIELD_GETSET_CPPB, "Button", BS_AUTORADIOBUTTON, 141, 4, 75, 10
+    LTEXT           "", IDC_STATUS, 5, 14, 244, 13, SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1, 5, 29, 142, 14, ES_AUTOHSCROLL
+    LTEXT           "Setter nam&e (or empty):", IDC_EDIT2_LABEL, 149, 14, 123, 13, SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SECOND, 149, 29, 123, 14, ES_AUTOHSCROLL
+    CONTROL         "Read fro&m field", IDC_CHK_READ_FIELD_CPPB, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 5, 44, 70, 10
+    CONTROL         "Virtu&al", IDC_CHK_READ_VIRTUAL_CPPB, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 80, 44, 35, 10
+    CONTROL         "Write to &field", IDC_CHK_WRITE_FIELD_CPPB, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 149, 44, 70, 10
+    CONTROL         "Virtua&l", IDC_CHK_WRITE_VIRTUAL_CPPB, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 224, 44, 35, 10
+    LTEXT           "Property visibility", IDC_STATIC_ENC_PROP_CPPB, 5, 61, 58, 8
+    CONTROL         "__publish&ed", IDC_RADIO_ENC_PROP_PUBLISHED_CPPB, "Button", BS_AUTORADIOBUTTON | WS_GROUP, 65, 60, 50, 10
+    CONTROL         "p&ublic", IDC_RADIO_ENC_PROP_PUBLIC_CPPB, "Button", BS_AUTORADIOBUTTON, 119, 60, 40, 10
+    CONTROL         "pr&ivate", IDC_RADIO_ENC_PROP_PRIVATE_CPPB, "Button", BS_AUTORADIOBUTTON, 159, 60, 40, 10
+    CONTROL         "protecte&d", IDC_RADIO_ENC_PROP_PROTECTED_CPPB, "Button", BS_AUTORADIOBUTTON, 199, 60, 44, 10
+    CONTROL         "no c&hange", IDC_RADIO_ENC_PROP_NONE_CPPB, "Button", BS_AUTORADIOBUTTON, 247, 60, 48, 10
+    LTEXT           "Field visibility", IDC_STATIC_ENC_FIELD, 5, 73, 62, 8
+    CONTROL         "pri&vate", IDC_RADIO_ENC_FIELD_PRIVATE, "Button", BS_AUTORADIOBUTTON | WS_GROUP, 69, 72, 35, 10
+    CONTROL         "pro&tected", IDC_RADIO_ENC_FIELD_PROTECTED, "Button", BS_AUTORADIOBUTTON, 107, 72, 45, 10
+    CONTROL         "n&o change", IDC_RADIO_ENC_FIELD_NONE, "Button", BS_AUTORADIOBUTTON, 155, 72, 48, 10
+    CONTROL         "internal", IDC_RADIO_ENC_FIELD_INTERNAL, "Button", BS_AUTORADIOBUTTON, 206, 72, 40, 10
+    CONTROL         "&Public accessor visibility", IDC_CHECK_ENC_FIELD_PUBLIC_ACCESSORS,
+                    "Button", BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP, 5, 72, 134, 10
+    CONTROL         "Displa&y inherited and overridden references", IDC_FIND_INHERITED_REFERENCES,
+                    "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 5, 84, 165, 10
+    CONTROL         "&Search all projects", IDC_CHK_ALL_PROJECTS, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 5, 96, 91, 10
+    DEFPUSHBUTTON   "OK", IDC_RENAME, 280, 29, 50, 14, WS_DISABLED
+    PUSHBUTTON      "&Cancel", IDCANCEL, 334, 29, 50, 14
+    CONTROL         "Tree1", IDC_TREE1, "SysTreeView32", TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | TVS_FULLROWSELECT | WS_BORDER | WS_HSCROLL | WS_TABSTOP, 5, 109, 379, 98
+    CONTROL         "Display uses in comments and strings", IDC_COMMENTS,
+                    "Button", BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP, 207, 201, 177, 10
+    CONTROL         "Progress1", IDC_PROGRESS1, "msctls_progress32", WS_BORDER, 279, 14, 105, 14
+    LTEXT           "", IDC_WARNING, 5, 208, 379, 8, NOT WS_VISIBLE
+END
+
+IDD_CheckoutDurationDlg DIALOGEX 0, 0, 234, 155
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Checkout License from Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Checkout a license from the license server to later use Visual Assist when you do not have access to the license server.  Specify a duration in hours.",IDC_STATIC,6,5,221,26
+    LTEXT           "If you do not manually restore the license via the Checkin License command, it will automatically be restored when the specified amount of time has elapsed, freeing it for use by another user.",IDC_STATIC,6,35,221,30
+    LTEXT           "The administrator of the license server sets the maximum amount of time for which a license may be checked out.",IDC_STATIC,6,66,221,22
+    LTEXT           "&Duration (in hours):",IDC_STATIC,6,108,68,8
+    EDITTEXT        IDC_EDIT1,80,106,57,14,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RTLREADING
+    DEFPUSHBUTTON   "OK",IDOK,119,136,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,177,136,50,14
+END
+
+IDD_TRIAL_ELQ DIALOGEX 0, 0, 350, 450
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Trial"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATIC_HTML,0,0,350,450
+END
+
+IDD_FIRST_RUN DIALOGEX 0, 0, 460, 320
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Visual Assist Integration"
+FONT 8, "Segoe UI", 0, 0, 0x0
+BEGIN
+    CONTROL         "", IDC_BUTTON_FIRST_RUN_PARTIAL, "Button", BS_AUTOCHECKBOX | BS_PUSHLIKE, 30, 20, 180, 156
+    CONTROL         "", IDC_BUTTON_FIRST_RUN_FULL, "Button", BS_AUTOCHECKBOX | BS_PUSHLIKE, 250, 20, 180, 156
+    LTEXT           "Fewer features turned on by default, but more things will work as you're currently used to.\nChoose this:\n• for no surprises (eg no keys unexpectedly remapped)\n• if you're ok missing out usefull features", IDC_STATIC_FIRST_RUN_PARTIAL, 25, 190, 195, 60
+    LTEXT           "More features turned on by default, so your IDE may behave quite differently!\nChoose this when:\n• you're testing VA out and want to see what it can do\n• you're want all the power VA can provide\n• you're okay looking in an Options dialog to turn things off", IDC_STATIC_FIRST_RUN_FULL, 245, 190, 195, 60
+    PUSHBUTTON      "&Details...", IDC_BUTTON_FIRST_RUN_DETAILS, 315, 258, 50, 14
+    GROUPBOX        "", IDC_GROUPBOX_FIRST_RUN, -5, 290, 470, 30
+    DEFPUSHBUTTON   "&Next >", IDC_BUTTON_FIRST_RUN_NEXT, 385, 300, 50, 14
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FINDDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_REGISTER_SINGLE_ENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 359
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_REGISTER_SANCTUARY, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 367
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_WEB_ACTIVATION_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 436
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_IMPORT_LICENSE_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 314
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_VAOPENFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 460
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_LICENSEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_SPELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_VABROWSESYM, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 367
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_VACLASSVIEW, DIALOG
+    BEGIN
+        VERTGUIDE, 209
+    END
+
+    IDD_FILEOUTLINE, DIALOG
+    BEGIN
+    END
+
+    IDD_FILEVIEW, DIALOG
+    BEGIN
+    END
+
+    IDD_TIPOFTHEDAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+    END
+
+    IDD_RENAMEREFERENCES, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_CREATEMETHODDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_EXTRACTMETHOD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_VAFINDUSAGES, DIALOG
+    BEGIN
+    END
+
+    IDD_GenericMultiPrompt, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_VAPROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 17
+    END
+
+    IDD_GRAPH_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_RENAMEFILES, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 326
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_CREATEFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_CHANGESIGNATURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_CHANGESIGNATURE_ARG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 272
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_MAINTENANCERENEWAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_MAINTENANCERENEWAL_MULTIUSER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_NAVBAR_QUESTION, DIALOG
+    BEGIN
+    END
+
+    IDD_VABROWSEMEMBERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 367
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_VAHASHTAGS, DIALOG
+    BEGIN
+    END
+
+    IDD_ENCAPSULATEFIELD, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_SORTSELECTEDLINES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_CONVERT_POINTER_TO_INSTANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_CONVERT_INSTANCE_TO_POINTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_INSERTPATH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_CONVERTENUM, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 384
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 164
+    END
+
+	IDD_ENCAPSULATEFIELD_CPPB, DIALOG
+	BEGIN
+		LEFTMARGIN, 5
+		RIGHTMARGIN, 384
+		TOPMARGIN, 5
+		BOTTOMMARGIN, 164
+	END
+
+    IDD_TRIAL_ELQ, DIALOG
+    BEGIN
+    END
+
+    IDD_FIRST_RUN, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MINIHELP_MENU MENU
+BEGIN
+    POPUP "MiniHelp"
+    BEGIN
+        MENUITEM "Copy",                        ID_EDIT_COPY
+    END
+END
+
+IDR_FILEVIEW_MENU MENU
+BEGIN
+    POPUP "Dummy"
+    BEGIN
+        MENUITEM "Goto",                        IDC_GOTO
+        MENUITEM "&Clear",                      IDC_CLEAR
+        MENUITEM "Clear &All",                  IDC_CLEARALL
+        MENUITEM SEPARATOR
+        MENUITEM "Include all opened files",    IDC_ADDFILESWITHFOCUS
+        MENUITEM "Include modified files",      IDC_INCLUDEALLEDITEDFILES
+        MENUITEM "Include modified methods",    ID_DUMMY_INCLUDEMODIFIEDMETHODS
+    END
+END
+
+IDR_FILEVIEW_MENU2 MENU
+BEGIN
+    POPUP "Dummy"
+    BEGIN
+        MENUITEM "Goto",                        IDC_GOTO
+        MENUITEM "&Clear",                      IDC_CLEAR
+        MENUITEM "Clear &All",                  IDC_CLEARALL
+        MENUITEM SEPARATOR
+        MENUITEM "Include All Recent Files and Methods", IDC_INCLUDE_ALL_RECENT_FILES
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include <afxres.h>\r\n"
+    "#include <richedit.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.rc2""  // non-Visual C++ edited resources\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDB_VAICONS TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_BUTTON40040
+    BUTTON      ID_BUTTON40064
+    SEPARATOR
+    BUTTON      ID_VA_DEBUG_ARROW
+    BUTTON      ID_BUTTON40059
+    BUTTON      ID_BUTTON40058
+    BUTTON      ID_BUTTON40056
+    SEPARATOR
+    BUTTON      ID_BUTTON40060
+    BUTTON      ID_BUTTON40061
+    BUTTON      ID_BUTTON40035
+    SEPARATOR
+    BUTTON      ID_BUTTON40043
+    BUTTON      ID_BUTTON40074
+    SEPARATOR
+    BUTTON      ID_BUTTON40036
+    BUTTON      ID_BUTTON40048
+    BUTTON      ID_BUTTON40049
+    BUTTON      ID_BUTTON40050
+    BUTTON      ID_BUTTON40037
+    BUTTON      ID_BUTTON40053
+    BUTTON      ID_BUTTON40051
+    BUTTON      ID_BUTTON40037
+    SEPARATOR
+    BUTTON      ID_BUTTON40026
+    SEPARATOR
+    BUTTON      ID_BUTTON40025
+    BUTTON      ID_BUTTON40027
+    BUTTON      ID_BUTTON40028
+    BUTTON      ID_BUTTON40029
+    SEPARATOR
+    BUTTON      ID_BUTTON40030
+    SEPARATOR
+    BUTTON      ID_BUTTON40031
+    BUTTON      ID_BUTTON40032
+    BUTTON      ID_BUTTON40033
+    BUTTON      ID_BUTTON40034
+    SEPARATOR
+    BUTTON      ID_BUTTON40038
+    BUTTON      ID_BUTTON40039
+    SEPARATOR
+    BUTTON      ID_BUTTON40041
+    BUTTON      ID_BUTTON40042
+    BUTTON      ID_BUTTON40044
+    SEPARATOR
+    BUTTON      ID_BUTTON40045
+    SEPARATOR
+    BUTTON      ID_BUTTON40063
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PUSHPINUNLOCK       ICON                    "res\\pushPinUnlock.ico"
+
+IDI_PUSHPINLOCK         ICON                    "res\\pushPinLock.ico"
+
+IDI_TOMATO              ICON                    "res\\tomato.ico"
+
+IDI_PUSHPINLOCK11       ICON                    "res\\pushpin11.ico"
+
+IDI_PUSHPINUNLOCK11     ICON                    "res\\pushpinunlock11.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DRAGMOVE            CURSOR                  "res\\DRAGMOVE.CUR"
+
+IDC_DRAGCOPY            CURSOR                  "res\\DRAGCOPY.CUR"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SORTSELECTEDLINES AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CONVERT_POINTER_TO_INSTANCE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CONVERT_INSTANCE_TO_POINTER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WEB_ACTIVATION_PROMPT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_IMPORT_LICENSE_FILE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_REGISTER_SANCTUARY AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_INSERTPATH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ENCAPSULATEFIELD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CONVERTENUM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ENCAPSULATEFIELD_CPPB AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_READY               "Ready"
+    IDS_HELP_ON_VAR         "No help available for ""%s""\n\nIt is defined as:\n""%s""\n\nWould you like help on ""%s""?"
+    IDS_READING_FNAME       "Parsing %s"
+    IDS_READING_PROJECT_INFO "Reading project info..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELP_TITLE          "Help on ""%s""?"
+    IDS_FILE_WRITE_ERROR    "Error writing to file:\n\n%s\n\n%s"
+    IDS_BORDERMENU_INS_BRKPT "&Insert/Remove Breakpoint"
+    IDS_BORDERMENU_OPENFILENAME "Open ""%1"""
+    IDS_BORDERMENU_REM_ALLBRKPTS "Remo&ve All Breakpoints"
+    IDS_BORDERMENU_DISABLE_ALLBRKPTS "Disab&le All Breakpoints"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_GETPROJFILES_DONE   "Project file scan complete"
+    IDS_BORDERMENU_REM_BOOKMARKS "Remove Bookmarks"
+    IDS_SORTING             "Sorting..."
+    IDS_MAKING_TEMPLATE     "Creating instance of template %s"
+    IDS_BUTTON_GOTO         "Goto Button"
+    IDS_VER_ERROR_NOT_LOADED "Error - %1 not loaded"
+    IDS_VER_NONE            "No version info for %1 %2!d!"
+    IDS_VER_SPEC2           "version %1!d!.%2!d!.%3!d!.%4!d!"
+    IDS_VER_SPEC_FILE       "%1 file version %2!d!.%3!d!.%4!d!.%5!d!  "
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define FILE_DESCRIPTION "Visual Assist"
+
+#include "resource.rc2"  // non-Visual C++ edited resources
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

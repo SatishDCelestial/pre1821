@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used to describe the debugger plugin component. This file is run through 
+vsdconfigtool.exe as part of the build, which generates two other files:
+
+* VaDebuggerPluginV2.Contract.h contains a C++ class header, and ensures that the code and 
+configuration stay in sync.
+
+* VaDebuggerPluginV2.vsdconfig is a binary version of this file which is deployed along with 
+VaDebuggerPlugin.dll. VaDebuggerPluginV2.vsdconfig is then read by he component loading system at runtime.
+
+For more information about this file, see 'Component discovery and configuration' in readme.docx
+-->
+
+<Configuration xmlns="http://schemas.microsoft.com/vstudio/vsdconfig/2008">
+  <DefineGuid Name="guidVaDebuggerComponentId" Value="953e2d31-a80d-4b19-9dde-c58a81879a34"/>
+  <NativeComponent
+    ComponentId="guidVaDebuggerComponentId"
+    ComponentLevel="9995000"
+    ModuleName="VaDebuggerPlugin.dll">
+    <!--NOTE: For more information on ComponentLevel, see the 'Component Levels' section of readme.docx-->
+
+    <Class Name="VaDebuggerPluginService" ClassId="38e80c2f-90b8-4cb8-9756-5f344ef135f4" WorkerProcessSupported="true">
+
+      <Implements>
+        <InterfaceGroup Priority="Normal">
+          <Filter>
+            <LanguageId RequiredValue="DkmLanguageId.Cpp"/>
+            <LanguageId RequiredValue="DkmLanguageId.C"/>
+            <!-- <LanguageId RequiredValue="DkmLanguageId.CSharp"/> -->
+            <RuntimeId RequiredValue="DkmRuntimeId.Native"/>
+            <!-- <RuntimeId RequiredValue="DkmRuntimeId.Clr"/> -->
+            <!-- <RuntimeId RequiredValue="DkmRuntimeId.ClrNativeCompilation"/> -->
+            <RuntimeId RequiredValue="DkmRuntimeId.Gpu"/>
+            <RuntimeId RequiredValue="DkmRuntimeId.GpuInterop"/>
+          </Filter>
+<!--           <Interface Name="IDkmCallStackFilter"/> -->
+          <Interface Name="IDkmLanguageStepIntoFilterCallback"/>
+        </InterfaceGroup>
+<!--         <InterfaceGroup Priority="Normal"> -->
+<!--           <Filter> -->
+<!--             <SourceId RequiredValue="guidVaDebuggerComponentId"/> -->
+<!--           </Filter> -->
+<!--           <Interface Name="IDkmCustomMessageCallbackReceiver"/> -->
+<!--         </InterfaceGroup> -->
+      </Implements>
+    </Class>
+  
+  </NativeComponent>
+</Configuration>

@@ -1,0 +1,37 @@
+#pragma once
+
+bool Utf32IsTitlecaseLetter(char32_t ch);
+bool Utf32IsModifierLetter(char32_t ch);
+bool Utf32IsOtherLetter(char32_t ch);
+bool Utf32IsNonSpacingMark(char32_t ch);
+bool Utf32IsSpacingCombiningMark(char32_t ch);
+bool Utf32IsEnclosingMark(char32_t ch);
+bool Utf32IsDecimalDigitNumber(char32_t ch);
+bool Utf32IsLetterNumber(char32_t ch);
+bool Utf32IsOtherNumber(char32_t ch);
+bool Utf32IsSpaceSeparator(char32_t ch);
+bool Utf32IsLineSeparator(char32_t ch);
+bool Utf32IsParagraphSeparator(char32_t ch);
+bool Utf32IsControl(char32_t ch);
+bool Utf32IsFormat(char32_t ch);
+bool Utf32IsSurrogate(char32_t ch);
+bool Utf32IsPrivateUse(char32_t ch);
+bool Utf32IsConnectorPunctuation(char32_t ch);
+bool Utf32IsDashPunctuation(char32_t ch);
+bool Utf32IsOpenPunctuation(char32_t ch);
+bool Utf32IsClosePunctuation(char32_t ch);
+bool Utf32IsInitialQuotePunctuation(char32_t ch);
+bool Utf32IsFinalQuotePunctuation(char32_t ch);
+bool Utf32IsOtherPunctuation(char32_t ch);
+bool Utf32IsMathSymbol(char32_t ch);
+bool Utf32IsCurrencySymbol(char32_t ch);
+bool Utf32IsModifierSymbol(char32_t ch);
+bool Utf32IsOtherSymbol(char32_t ch);
+bool Utf32IsOtherNotAssigned(char32_t ch);
+bool Utf32IsCombining(char32_t ch);
+bool Utf32IsBase(char32_t ch);
+bool Utf32IsLowercaseLetter(char32_t ch);
+bool Utf32IsUppercaseLetter(char32_t ch);
+LPCWSTR Utf32ToLower(char32_t ch);
+LPCWSTR Utf32ToUpperOrTitle(char32_t ch, bool title = false);
+unsigned short Utf32GetLocaleHash();

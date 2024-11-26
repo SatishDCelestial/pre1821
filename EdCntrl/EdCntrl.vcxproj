@@ -1,0 +1,2140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_RadVs|x64">
+      <Configuration>Debug_RadVs</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_RS|x64">
+      <Configuration>Debug_RS</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_RadVs|Win32">
+      <Configuration>Debug_RadVs</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_RS|Win32">
+      <Configuration>Debug_RS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_RadVs|x64">
+      <Configuration>Release_RadVs</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_RS|x64">
+      <Configuration>Release_RS</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_RadVs|Win32">
+      <Configuration>Release_RadVs</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_RS|Win32">
+      <Configuration>Release_RS</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>EdCntrl</ProjectName>
+    <ProjectGuid>{538D361A-4803-44A2-9673-2103AEA8468C}</ProjectGuid>
+    <RootNamespace>EdCntrl</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\arm64.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\RadVs.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\RS.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\RadVs.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Release.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\RS.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+    <Import Project="..\PostBuild.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\arm64.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+    <Import Project="..\PostBuild.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\RadVs.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\32.props" />
+    <Import Project="..\RS.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\RadVs.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\VARootLevel1.props" />
+    <Import Project="..\3rdParty.props" />
+    <Import Project="..\Debug.props" />
+    <Import Project="..\64.props" />
+    <Import Project="..\RS.props" />
+    <Import Project="..\OutputDirs.props" />
+    <Import Project="..\Options.props" />
+    <Import Project="..\PartOf_VA_X.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">VA_X_RadVs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">VA_X_RS</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">VA_X_RadVs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">VA_X_RS</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">VA_X$(File3264Suffix)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">VA_X_RadVs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">VA_X_RS</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">VA_X_RadVs</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">VA_X_RS</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">
+    <OutDir>.\..\bin\release\</OutDir>
+    <IntDir>$(OutDir)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">
+    <OutDir>.\..\bin\release\</OutDir>
+    <IntDir>$(OutDir)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">
+    <OutDir>.\..\bin\debug\</OutDir>
+    <IntDir>$(OutDir)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">
+    <OutDir>.\..\bin\debug\</OutDir>
+    <IntDir>$(OutDir)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";_CRTDBG_MAP_ALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x1ed00000</BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>call ..\PostBuild.bat "$(TargetPath)" vs10 vs16
+$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe $(SolutionDir)EdCntrl\DebuggerTools\VaDebuggerPlugin.vsdconfigxml $(TargetPath) $(OutDir)VaDebuggerPlugin.vsdconfig
+call ..\PostBuild.bat $(OutDir)VaDebuggerPlugin.vsdconfig vs11 vs12</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc_arm64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+    </Link>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x1ed00000</BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;NOSMARTFLOW;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x1ed00000</BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetDir)\$(TargetName).*" "C:\dev\tp\bin\VAssist\$(TargetName).*"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\debug\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;__DEBUG=2;VISUAL_ASSIST_X;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x1ed00000</BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+    </Link>
+    <PostBuildEvent>
+      <Command>rem del $(IntDir)BuildDate.obj
+rem if exist $(TargetDir)VA_X.dll.prearm del $(TargetDir)VA_X.dll.prearm
+rem if exist $(TargetDir)VA_X.dll.postarm del $(TargetDir)VA_X.dll.postarm
+rem if exist $(TargetDir)VA_X.bak del $(TargetDir)VA_X.bak
+rem "..\..\..\3rdParty\Armadillo\ArmCLine.exe" "..\ARM\VA_X.ARM" /p
+rem "..\..\..\3rdParty\ArmadilloDbgFixer\CONSOLE\Win32\Release\ArmdDbgFix_CLI.exe" $(TargetDir)VA_X.dll
+rem ren $(TargetDir)VA_X.bak VA_X.dll.postarm
+.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe $(SolutionDir)EdCntrl\DebuggerTools\VaDebuggerPlugin.vsdconfigxml $(TargetPath) $(OutDir)VaDebuggerPlugin.vsdconfig
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <BaseAddress>0x1ed000000</BaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>rem del $(IntDir)BuildDate.obj
+rem if exist $(TargetDir)VA_X64.dll.prearm del $(TargetDir)VA_X64.dll.prearm
+rem if exist $(TargetDir)VA_X64.dll.postarm del $(TargetDir)VA_X64.dll.postarm
+rem if exist $(TargetDir)VA_X64.bak del $(TargetDir)VA_X64.bak
+rem @echo calling Armadillo64
+rem "..\..\..\3rdParty\Armadillo\armadillo64.exe" "..\ARM\VA_X64.ARM" /p
+rem if NOT exist $(TargetDir)VA_X64.dll.prearm @echo armadillo processing error!
+rem if NOT exist $(TargetDir)VA_X64.dll.prearm del VA_X64.dll
+rem if exist $(TargetDir)VA_X64.dll @echo armadillo completed
+rem @echo calling ArmadilloDbgFixer
+rem "..\..\..\3rdParty\ArmadilloDbgFixer\CONSOLE\Win64\Release\ArmdDbgFix_CLI.exe" $(TargetDir)VA_X64.dll
+rem if NOT exist $(TargetDir)VA_X64.bak @echo ArmdDbgFixer processing error!
+rem if NOT exist $(TargetDir)VA_X64.bak del VA_X64.dll
+rem ren $(TargetDir)VA_X64.bak VA_X64.dll.postarm
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc_arm64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <BaseAddress>0x1ed000000</BaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>rem del $(IntDir)BuildDate.obj
+rem if exist $(TargetDir)VA_X64.dll.prearm del $(TargetDir)VA_X64.dll.prearm
+rem if exist $(TargetDir)VA_X64.dll.postarm del $(TargetDir)VA_X64.dll.postarm
+rem if exist $(TargetDir)VA_X64.bak del $(TargetDir)VA_X64.bak
+rem @echo calling Armadillo64
+rem "..\..\..\3rdParty\Armadillo\armadillo64.exe" "..\ARM\VA_X64.ARM" /p
+rem if NOT exist $(TargetDir)VA_X64.dll.prearm @echo armadillo processing error!
+rem if NOT exist $(TargetDir)VA_X64.dll.prearm del VA_X64.dll
+rem if exist $(TargetDir)VA_X64.dll @echo armadillo completed
+rem @echo calling ArmadilloDbgFixer
+rem "..\..\..\3rdParty\ArmadilloDbgFixer\CONSOLE\Win64\Release\ArmdDbgFix_CLI.exe" $(TargetDir)VA_X64.dll
+rem if NOT exist $(TargetDir)VA_X64.bak @echo ArmdDbgFixer processing error!
+rem if NOT exist $(TargetDir)VA_X64.bak del VA_X64.dll
+rem ren $(TargetDir)VA_X64.bak VA_X64.dll.postarm
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>
+      </BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>del $(IntDir)BuildDate.obj</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\8.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\10.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\12.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\14.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Inc;$(ThirdPartyDir)\VSIP\16.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;NOSMARTFLOW;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\15.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>
+      </BaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>del $(IntDir)BuildDate.obj
+call ..\CopyFiles.bat "$(TargetDir)" "C:\dev\tp\experiments\vaide\bin\VAssist" "$(TargetName)" "dll;pdb"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;SANCTUARY;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+    </Link>
+    <PostBuildEvent>
+      <Command>del $(IntDir)BuildDate.obj</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\..\bin\release\VA_X/EdCntrl.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ThirdPartyDir);$(ThirdPartyDir)\crypto++;$(ThirdPartyDir)\Vc6ObjModel;$(ThirdPartyDir)\parallel-hashmap-1.3.12;$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USRDLL;VISUAL_ASSIST_X;CONFIGURATIONNAME="$(ConfigurationName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/bigobj /await:strict %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(ThirdPartyDir)\SmartFlow\Lib\$(BuildType)\MT\PhdlLibrary$(i3264).lib;$(ThirdPartyDir)\VSIP\11.0\VisualStudioIntegration\Common\lib\$(x86x64)\vsdebugeng.lib;Shlwapi.lib;vsguids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdPartyDir)\VSIP\17.0\VisualStudioIntegration\Common\Lib\$(x86x64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>EdCntrl.def</ModuleDefinitionFile>
+      <SubSystem>Windows</SubSystem>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <DelayLoadDLLs>gdiplus.dll;vsdebugeng.dll;oleacc.dll;vaipc64.dll</DelayLoadDLLs>
+      <StackReserveSize>16777216</StackReserveSize>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(IntDir)$(TargetName).map</MapFileName>
+    </Link>
+    <PostBuildEvent>
+      <Command>del $(IntDir)BuildDate.obj</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\3rdParty\SmartFlow\Helper\Encryption.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\aes.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">stdafxed.h</ForcedIncludeFiles>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\sqlite\CppSQLite3.cpp">
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\sqlite\sqlite3.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ForcedIncludeFiles>vaSqliteConfig.h</ForcedIncludeFiles>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\ClientConnectionThread.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\IPC stats.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\vaIPC\vaIPC\IpcClient.cpp">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\StdAfx_WTKeyGen.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="AddClassMemberDlg.cpp" />
+    <ClCompile Include="AddForwardDeclaration.cpp" />
+    <ClCompile Include="Addin\StdAfx_Addin.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\TrialElqDlg.cpp" />
+    <ClCompile Include="ArgToolTip.cpp" />
+    <ClCompile Include="ArgToolTipEx.cpp" />
+    <ClCompile Include="AutoTemplateConverter.cpp" />
+    <ClCompile Include="AutotextExpansion.cpp" />
+    <ClCompile Include="AutotextManager.cpp" />
+    <ClCompile Include="AutotextReservedStrings.cpp" />
+    <ClCompile Include="BaseClassList.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BorderCWnd.cpp" />
+    <ClCompile Include="Bpoint.cpp" />
+    <ClCompile Include="BuildDate.cpp" />
+    <ClCompile Include="CatLog.cpp" />
+    <ClCompile Include="CFileW.cpp" />
+    <ClCompile Include="ChangeSignature.cpp" />
+    <ClCompile Include="CodeGraph.cpp" />
+    <ClCompile Include="CodeGraphOptionsDlg.cpp" />
+    <ClCompile Include="ColorSyncManager.cpp" />
+    <ClCompile Include="CommentSkipper.cpp" />
+    <ClCompile Include="ConvertBetweenPointerAndInstance.cpp" />
+    <ClCompile Include="FirstRunDlg.cpp" />
+    <ClCompile Include="PromoteLambda.cpp" />
+    <ClCompile Include="MaintenanceRenewal.cpp" />
+    <ClCompile Include="MaintenanceRenewal_MultiUser.cpp" />
+    <ClCompile Include="MethodsSorting\MethodsSortingCodePart.cpp" />
+    <ClCompile Include="MethodsSorting\MethodsSorting.cpp" />
+    <ClCompile Include="RadStudio\RadStudioUtils.cpp" />
+    <ClCompile Include="RadStudio\RadStudioMenu.cpp" />
+    <ClCompile Include="RadStudio\RadStudioCompletion.cpp" />
+    <ClCompile Include="RadStudio\RadStudioFrame.cpp" />
+    <ClCompile Include="CppBuilder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CreateFileDlg.cpp" />
+    <ClCompile Include="CreateFromUsage.cpp" />
+    <ClCompile Include="CreateMissingCases.cpp" />
+    <ClCompile Include="DBFile\DBFile.cpp" />
+    <ClCompile Include="DBLock.cpp" />
+    <ClCompile Include="DbMtxClient.cpp" />
+    <ClCompile Include="DBQuery.cpp" />
+    <ClCompile Include="DebuggerTools\DebuggerToolsCpp.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="DebuggerTools\VaDebuggerPluginService.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="DebugStream.cpp" />
+    <ClCompile Include="DefaultAutotext.cpp" />
+    <ClCompile Include="DefListFilter.cpp" />
+    <ClCompile Include="DevShell.cpp" />
+    <ClCompile Include="DirChangeMonitor.cpp" />
+    <ClCompile Include="Directories.cpp" />
+    <ClCompile Include="DoubleBuffer.cpp" />
+    <ClCompile Include="DpiCookbook\VsUIDpiHelper.cpp">
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="DpiCookbook\VsUIGdiplusImage.cpp">
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">NotUsing</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="DragDropTreeCtrl.cpp" />
+    <ClCompile Include="EDCNT.CPP" />
+    <ClCompile Include="EDCNT2.CPP" />
+    <ClCompile Include="EdCntOLE.cpp" />
+    <ClCompile Include="EdDll.cpp" />
+    <ClCompile Include="EncapsulateField.cpp" />
+    <ClCompile Include="EnumConverter.cpp" />
+    <ClCompile Include="EolTypes.cpp" />
+    <ClCompile Include="expansion.cpp" />
+    <ClCompile Include="ExtractMethod.cpp" />
+    <ClCompile Include="ExtractMethodDlg.cpp" />
+    <ClCompile Include="FastBitmapReader.cpp" />
+    <ClCompile Include="FastComboBox.cpp" />
+    <ClCompile Include="FastComboBoxListCtrl.cpp" />
+    <ClCompile Include="FDictionary.cpp" />
+    <ClCompile Include="file.cpp" />
+    <ClCompile Include="FileFinder.cpp" />
+    <ClCompile Include="FileId.cpp" />
+    <ClCompile Include="FileList.cpp" />
+    <ClCompile Include="FileListCombo.cpp" />
+    <ClCompile Include="FilterableSet.cpp" />
+    <ClCompile Include="FilterDlg.cpp" />
+    <ClCompile Include="FindInWkspcDlg.cpp" />
+    <ClCompile Include="FindReferences.cpp" />
+    <ClCompile Include="FindReferencesResultsFrame.cpp" />
+    <ClCompile Include="FindReferencesThread.cpp" />
+    <ClCompile Include="FindSimilarLocation.cpp" />
+    <ClCompile Include="FindTextDlg.cpp" />
+    <ClCompile Include="FindUsageDlg.cpp" />
+    <ClCompile Include="FlatSplitterWnd.cpp" />
+    <ClCompile Include="FontSettings.cpp" />
+    <ClCompile Include="Foo.cpp" />
+    <ClCompile Include="FreezeDisplay.cpp" />
+    <ClCompile Include="GenericComboBox.cpp" />
+    <ClCompile Include="GenericComboBoxListBox.cpp" />
+    <ClCompile Include="GenericMultiPrompt.cpp" />
+    <ClCompile Include="GenericTreeDlg.cpp" />
+    <ClCompile Include="GetFileText.cpp" />
+    <ClCompile Include="GotoDlg1.cpp" />
+    <ClCompile Include="HashtagsManager.cpp" />
+    <ClCompile Include="Help.cpp" />
+    <ClCompile Include="IdeSettings.cpp" />
+    <ClCompile Include="ImageListManager.cpp" />
+    <ClCompile Include="ImplementMethods.cpp" />
+    <ClCompile Include="Import.cpp" />
+    <ClCompile Include="includesDb.cpp" />
+    <ClCompile Include="IncToken.cpp" />
+    <ClCompile Include="InferType.cpp" />
+    <ClCompile Include="inheritanceDb.cpp" />
+    <ClCompile Include="InsertPathDialog.cpp" />
+    <ClCompile Include="IntroduceVariable.cpp" />
+    <ClCompile Include="KeyBindings.cpp" />
+    <ClCompile Include="LayeredWindowHelperST.cpp" />
+    <ClCompile Include="LBToolBar.cpp" />
+    <ClCompile Include="LicenseMonitor.cpp" />
+    <ClCompile Include="LiveOutlineFrame.cpp" />
+    <ClCompile Include="LocalRefactoring.cpp" />
+    <ClCompile Include="Lock.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="LogVersionInfo.cpp" />
+    <ClCompile Include="MEFCompletionSet.cpp" />
+    <ClCompile Include="MISC.CPP" />
+    <ClCompile Include="Mparse.cpp" />
+    <ClCompile Include="mparse2.cpp" />
+    <ClCompile Include="mparsepp.cpp" />
+    <ClCompile Include="NaturalCompareString.cpp" />
+    <ClCompile Include="NavigationBarQuestion.cpp" />
+    <ClCompile Include="Oleobj.cpp" />
+    <ClCompile Include="ParenSkipper.cpp" />
+    <ClCompile Include="PARSE.CPP" />
+    <ClCompile Include="ParseThrd.cpp" />
+    <ClCompile Include="PooledThreadBase.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="ProjectInfo.cpp" />
+    <ClCompile Include="QSort.cpp" />
+    <ClCompile Include="RadStudioPlugin.cpp" />
+    <ClCompile Include="rapidfuzz_amalgamated2.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">NotUsing</PrecompiledHeader>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</MultiProcessorCompilation>
+      <MultiProcessorCompilation Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">false</MultiProcessorCompilation>
+    </ClCompile>
+    <ClCompile Include="RBuffer.CPP" />
+    <ClCompile Include="ReferencesTreeSubclass.cpp" />
+    <ClCompile Include="ReferencesWndBase.cpp" />
+    <ClCompile Include="RenameFilesDlg.cpp" />
+    <ClCompile Include="RenameReferencesDlg.cpp" />
+    <ClCompile Include="RTFCopy.cpp" />
+    <ClCompile Include="Sanctuary\CheckoutDurationDlg.cpp" />
+    <ClCompile Include="Sanctuary\ImportLicenseFileDlg.cpp" />
+    <ClCompile Include="Sanctuary\RegisterSanctuary.cpp" />
+    <ClCompile Include="Sanctuary\WebRegistrationPrompt.cpp" />
+    <ClCompile Include="ScopeInfo.cpp" />
+    <ClCompile Include="ScreenAttributes.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="ShellListener.cpp" />
+    <ClCompile Include="SmartFlow\phdl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SolutionFiles.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="SolutionListener.cpp" />
+    <ClCompile Include="SortSelectedLinesDlg.cpp" />
+    <ClCompile Include="SpellCheckDlg.cpp" />
+    <ClCompile Include="StatusWnd.cpp" />
+    <ClCompile Include="StdAfxEd.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SubClassWnd.cpp" />
+    <ClCompile Include="SymbolListCombo.cpp" />
+    <ClCompile Include="SyntaxColoring.cpp" />
+    <ClCompile Include="TER_MFC.CPP" />
+    <ClCompile Include="TextOutDc.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="TipOfTheDay.cpp" />
+    <ClCompile Include="token.cpp" />
+    <ClCompile Include="ToolTipEditCombo.cpp" />
+    <ClCompile Include="TraceWindowFrame.cpp" />
+    <ClCompile Include="TransparentBitmapButton.cpp" />
+    <ClCompile Include="TreeCtrlTT.cpp" />
+    <ClCompile Include="UndoContext.cpp" />
+    <ClCompile Include="UnicodeHelper.cpp" />
+    <ClCompile Include="Usage.cpp" />
+    <ClCompile Include="Utf32CharInfo.cpp" />
+    <ClCompile Include="VaAfxW.cpp" />
+    <ClCompile Include="VAAutomation17.cpp" />
+    <ClCompile Include="VaDelayLoadLibrary.cpp" />
+    <ClCompile Include="VaHashtagsFrame.cpp" />
+    <ClCompile Include="VABrowseMembers.cpp" />
+    <ClCompile Include="VaHtmlDlg.cpp" />
+    <ClCompile Include="VASmartSelect.cpp" />
+    <ClCompile Include="VASmartSelect_InvertExpr.cpp" />
+    <ClCompile Include="VASmartSelect_Parsing.cpp" />
+    <ClCompile Include="VASmartSelect_Utils.cpp" />
+    <ClCompile Include="VAThemeDraw.cpp" />
+    <ClCompile Include="VAThemeUtils.cpp" />
+    <ClCompile Include="VAWatermarks.cpp" />
+    <ClCompile Include="VA_MRUs.cpp" />
+    <ClCompile Include="VaApp.cpp" />
+    <ClCompile Include="VAAutomation.cpp" />
+    <ClCompile Include="VABrowseSym.cpp" />
+    <ClCompile Include="VAClassView.cpp" />
+    <ClCompile Include="VACompletionBox.cpp" />
+    <ClCompile Include="VACompletionSet.cpp" />
+    <ClCompile Include="VACompletionSetEx.cpp" />
+    <ClCompile Include="DBFile\VADBFile.cpp" />
+    <ClCompile Include="VADialog.cpp" />
+    <ClCompile Include="VAFileView.cpp" />
+    <ClCompile Include="VAOpenFile.cpp" />
+    <ClCompile Include="VaOptions.cpp" />
+    <ClCompile Include="VAParse.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="VAProgress.cpp" />
+    <ClCompile Include="VARefactor.cpp" />
+    <ClCompile Include="VaService.cpp" />
+    <ClCompile Include="VaTree.cpp" />
+    <ClCompile Include="VAWorkspaceViews.cpp" />
+    <ClCompile Include="Vc6RefResultsCloneToolwnd.cpp" />
+    <ClCompile Include="VsSnippetLoader.cpp" />
+    <ClCompile Include="VsSnippetManager.cpp" />
+    <ClCompile Include="WindowsHooks.cpp" />
+    <ClCompile Include="WindowUtils.cpp" />
+    <ClCompile Include="WorkSpaceTab.cpp" />
+    <ClCompile Include="WPF_ViewManager.cpp" />
+    <ClCompile Include="WTFStream.cpp" />
+    <ClCompile Include="WTString.cpp" />
+    <ClCompile Include="Addin\AIC.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\BuyTryDlg.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\EditCntrlWnd.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\EditParentWnd.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\MiniHelpFrm.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\NonViewSplitter.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\Register.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\ToolTipButton.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="Addin\ToolTipEditView.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_addin.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdParty\Armadillo\Armadillo.cpp">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\KeyGenerator.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\ProductKeyGenerator.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorArm.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorArmBase.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXGeneratorBase.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\VAXRenewalGenerator.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\WTKeyGen\WTValidate.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName)_WTKeyGen.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="myspell\affentry.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\affixmgr.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\csutil.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\hashmgr.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\munch.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="myspell\myspell.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\suggestmgr.cxx">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="myspell\WTHashList.cpp" />
+    <ClCompile Include="HTMLDialog\DocHostSite.cpp" />
+    <ClCompile Include="HTMLDialog\Html_Host_Handlers.cpp" />
+    <ClCompile Include="HTMLDialog\HtmlCtrl.cpp" />
+    <ClCompile Include="HTMLDialog\HtmlDialog.cpp" />
+    <ClCompile Include="HTMLDialog\HtmlScript.cpp" />
+    <ClCompile Include="MenuXP\ButtonXP.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\ComboBoxXP.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\Draw.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\MenuXP.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\StatusBarXP.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\ToolBarXP.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="MenuXP\Tools.cpp">
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="AutoUpdate\AutoUpdater.cpp" />
+    <ClCompile Include="AutoUpdate\WTAutoUpdater.cpp" />
+    <ClCompile Include="dynwindow\cdxCDynamicDialog.cpp" />
+    <ClCompile Include="dynwindow\cdxCDynamicWnd.cpp" />
+    <ClCompile Include="dynwindow\cdxCDynamicWndEx.cpp" />
+    <ClCompile Include="dynwindow\cdxCSizeIconCtrl.cpp" />
+    <ClCompile Include="mctree\ColumnTreeCtrl.cpp" />
+    <ClCompile Include="mctree\ColumnTreeWnd.cpp" />
+    <ClCompile Include="ColorListControls.cpp" />
+    <ClCompile Include="ColourizedEdit.cpp" />
+    <ClCompile Include="Colourizer.cpp" />
+    <ClCompile Include="DSformat.cpp" />
+    <ClCompile Include="DimEditCtrl.cpp" />
+    <ClCompile Include="ListCtrl2008.cpp" />
+    <ClCompile Include="ListCtrlFixedGrid.cpp" />
+    <ClCompile Include="XButtonXP\OddButton.cpp" />
+    <ClCompile Include="XButtonXP\XButtonXP.cpp" />
+    <ClCompile Include="XButtonXP\XThemeHelper.cpp" />
+    <ClCompile Include="VASeException\SeException.cpp" />
+    <ClCompile Include="VASeException\StackWalker.cpp">
+      <PrecompiledHeaderFile>stdafxed.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafxed.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="VASeException\VASeException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tests\VaAutomationTests\ast.txt" />
+    <CustomBuild Include="DebuggerTools\VaDebuggerPlugin.vsdconfigxml">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release_RS|x64'">Building vsd contract...</Message>
+      <SubType>Designer</SubType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">.\..\..\..\3rdParty\VSIP\12.0\VisualStudioIntegration\Tools\bin\vsdconfigtool.exe %(FullPath) %(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">%(RootDir)%(Directory)v1\VaDebuggerPluginService.Contract.h</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">Building vsd contract...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">Building vsd contract...</Message>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug_RS|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">false</LinkObjects>
+    </CustomBuild>
+    <None Include="ClassDiagram.cd" />
+    <None Include="EdCntrl.def" />
+    <None Include="res\go11.bmp" />
+    <None Include="res\pushpin11.ico" />
+    <None Include="res\pushpinunlock11.ico" />
+    <None Include="res\refsAllProjects.bmp" />
+    <None Include="res\refsAllProjects.v11.bmp" />
+    <None Include="res\refsAllProjectsDis.bmp" />
+    <None Include="res\refsAllProjectsDis.v11.bmp" />
+    <None Include="res\refsAllProjectsSel.bmp" />
+    <None Include="res\refsAllProjectsSel.v11.bmp" />
+    <None Include="res\refsClone.v11.bmp" />
+    <None Include="res\refsCloneDis.v11.bmp" />
+    <None Include="res\refsCloneSel.v11.bmp" />
+    <None Include="res\refsFind.v11.bmp" />
+    <None Include="res\refsFindDis.v11.bmp" />
+    <None Include="res\refsFindSel.v11.bmp" />
+    <None Include="res\refsInheriance.v11.bmp" />
+    <None Include="res\refsInherianceDis.v11.bmp" />
+    <None Include="res\refsInherianceSel.v11.bmp" />
+    <None Include="res\refsNext.v11.bmp" />
+    <None Include="res\refsNextDis.v11.bmp" />
+    <None Include="res\refsNextSel.v11.bmp" />
+    <None Include="res\refsPrev.v11.bmp" />
+    <None Include="res\refsPrevDis.v11.bmp" />
+    <None Include="res\refsPrevSel.v11.bmp" />
+    <None Include="res\refsRefresh.v11.bmp" />
+    <None Include="res\refsRefreshDis.v11.bmp" />
+    <None Include="res\refsRefreshSel.v11.bmp" />
+    <None Include="res\spinner_down.v11.bmp" />
+    <None Include="res\spinner_up.v11.bmp" />
+    <None Include="res\vaIcons11.bmp" />
+    <None Include="res\VSNETSymbols11.bmp" />
+    <None Include="VAParseCodeGraph.inl" />
+    <None Include="res\DRAGCOPY.CUR" />
+    <None Include="res\DRAGMOVE.CUR" />
+    <None Include="res\go.bmp" />
+    <None Include="res\IDB_DEVCLWV.bmp" />
+    <None Include="res\pushPinLock.ico" />
+    <None Include="res\pushPinUnlock.ico" />
+    <None Include="res\RefactorIcons.bmp" />
+    <None Include="res\refsClone.bmp" />
+    <None Include="res\refsCloneDis.bmp" />
+    <None Include="res\refsCloneFoc.bmp" />
+    <None Include="res\refsCloneSel.bmp" />
+    <None Include="res\refsFind.bmp" />
+    <None Include="res\refsFindDis.bmp" />
+    <None Include="res\refsFindFoc.bmp" />
+    <None Include="res\refsFindSel.bmp" />
+    <None Include="res\refsInheriance.bmp" />
+    <None Include="res\refsInherianceDis.bmp" />
+    <None Include="res\refsInherianceSel.bmp" />
+    <None Include="res\refsNext.bmp" />
+    <None Include="res\refsNextDis.bmp" />
+    <None Include="res\refsNextFoc.bmp" />
+    <None Include="res\refsNextSel.bmp" />
+    <None Include="res\refsPrev.bmp" />
+    <None Include="res\refsPrevDis.bmp" />
+    <None Include="res\refsPrevFoc.bmp" />
+    <None Include="res\refsPrevSel.bmp" />
+    <None Include="res\refsRefresh.bmp" />
+    <None Include="res\refsRefreshDis.bmp" />
+    <None Include="res\refsRefreshFoc.bmp" />
+    <None Include="res\refsRefreshSel.bmp" />
+    <None Include="resource.rc2" />
+    <None Include="tallLogo.bmp" />
+    <None Include="res\tomato.ico" />
+    <None Include="res\TomatoTip.bmp" />
+    <None Include="res\vaIcons.bmp" />
+    <None Include="res\VSNetSymbols7.bmp" />
+    <None Include="res\VSNETSymbols8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\Encryption.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\aes.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\SmartFlow\Helper\TinyAES\stdint_VS2008.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdParty\sqlite\CppSQLite3.h" />
+    <ClInclude Include="..\..\..\3rdParty\sqlite\sqlite3.h" />
+    <ClInclude Include="..\..\..\3rdParty\sqlite\sqlite3ext.h" />
+    <ClInclude Include="..\common\ScopedIncrement.h" />
+    <ClInclude Include="..\common\ThreadStatic.h" />
+    <ClInclude Include="..\common\utils3264.h" />
+    <ClInclude Include="..\CppBuilder\IRadStudioHost.h" />
+    <ClInclude Include="..\CppBuilder\IVisualAssistPlugin.h" />
+    <ClInclude Include="..\vaIPC\vaIPC\ClientConnectionThread.h" />
+    <ClInclude Include="..\vaIPC\vaIPC\IPC stats.h" />
+    <ClInclude Include="..\vaIPC\vaIPC\IpcClient.h" />
+    <ClInclude Include="..\vaIPC\vaIPC\vaIPCshared.h" />
+    <ClInclude Include="..\WTKeyGen\KeyGenerator.h" />
+    <ClInclude Include="..\WTKeyGen\ProductInfo.h" />
+    <ClInclude Include="..\WTKeyGen\ProductKeyGenerator.h" />
+    <ClInclude Include="..\WTKeyGen\StdAfx.h" />
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArmGenKey.h" />
+    <ClInclude Include="..\WTKeyGen\VAXTrialGenerator.h" />
+    <ClInclude Include="..\WTKeyGen\wtKeyGenRes.h" />
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="AddForwardDeclaration.h" />
+    <ClInclude Include="Addin\StdAfx.h" />
+    <ClInclude Include="Addin\TrialElqDlg.h" />
+    <ClInclude Include="ArgToolTipEx.h" />
+    <ClInclude Include="AutoReferenceHighlighter.h" />
+    <ClInclude Include="AutotextExpansion.h" />
+    <ClInclude Include="CatLog.h" />
+    <ClInclude Include="ColorSyncManager.h" />
+    <ClInclude Include="CommentSkipper.h" />
+    <ClInclude Include="ConvertBetweenPointerAndInstance.h" />
+    <ClInclude Include="FirstRunDlg.h" />
+    <ClInclude Include="PromoteLambda.h" />
+    <ClInclude Include="MaintenanceRenewal.h" />
+    <ClInclude Include="MaintenanceRenewal_MultiUser.h" />
+    <ClInclude Include="MethodsSorting\LineReader.h" />
+    <ClInclude Include="MethodsSorting\MethodsSortingCodePart.h" />
+    <ClInclude Include="MethodsSorting\MethodsSorting.h" />
+    <ClInclude Include="RadStudio\RadStudioUtils.h" />
+    <ClInclude Include="RadStudio\RadStudioMenu.h" />
+    <ClInclude Include="RadStudio\RadStudioCompletion.h" />
+    <ClInclude Include="RadStudio\RadStudioFrame.h" />
+    <ClInclude Include="CppBuilder.h" />
+    <ClInclude Include="CreateFileDlg.h" />
+    <ClInclude Include="CreateMissingCases.h" />
+    <ClInclude Include="CWndDpiAware.h" />
+    <ClInclude Include="CWndTextW.h" />
+    <ClInclude Include="DbFieldConstants.h" />
+    <ClInclude Include="DBFile\DbTypeId.h" />
+    <ClInclude Include="DBFile\DbTypeIdStrs.h" />
+    <ClInclude Include="DebuggerTools\DebuggerToolsCpp.h" />
+    <ClInclude Include="DebuggerTools\interfaces.h" />
+    <ClInclude Include="DebuggerTools\stdafx.h" />
+    <ClInclude Include="DebuggerTools\v1\VaDebuggerPluginService.Contract.h" />
+    <ClInclude Include="DebuggerTools\VaDebuggerPluginService.h" />
+    <ClInclude Include="DebugStream.h" />
+    <ClInclude Include="DllNames.h" />
+    <ClInclude Include="DpiCookbook\atlgdi.h" />
+    <ClInclude Include="DpiCookbook\ScopeGuard.h" />
+    <ClInclude Include="DpiCookbook\stdafx.h" />
+    <ClInclude Include="DpiCookbook\VsUIDpiAwareness.h" />
+    <ClInclude Include="DpiCookbook\VsUIDpiHelper.h" />
+    <ClInclude Include="DpiCookbook\VsUIGdiplusImage.h" />
+    <ClInclude Include="DTypeDbScope.h" />
+    <ClInclude Include="DummyCombo.h" />
+    <ClInclude Include="EdCnt_fwd.h" />
+    <ClInclude Include="EncapsulateField.h" />
+    <ClInclude Include="EnumConverter.h" />
+    <ClInclude Include="ExtractMethod.h" />
+    <ClInclude Include="3dayExtension.h" />
+    <ClInclude Include="AddClassMemberDlg.h" />
+    <ClInclude Include="ArgToolTip.h" />
+    <ClInclude Include="assert_once.h" />
+    <ClInclude Include="AutoTemplateConverter.h" />
+    <ClInclude Include="AutotextManager.h" />
+    <ClInclude Include="BaseClassList.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BorderCWnd.h" />
+    <ClInclude Include="Bpoint.h" />
+    <ClInclude Include="BuildDate.h" />
+    <ClInclude Include="CFileW.h" />
+    <ClInclude Include="ChangeSignature.h" />
+    <ClInclude Include="ClassDataList.h" />
+    <ClInclude Include="CodeGraph.h" />
+    <ClInclude Include="CodeGraphOptionsDlg.h" />
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="Colourizer.h" />
+    <ClInclude Include="CreateFromUsage.h" />
+    <ClInclude Include="CtrlBackspaceEdit.h" />
+    <ClInclude Include="DatabaseDirectoryLock.h" />
+    <ClInclude Include="DBFile\DBFile.h" />
+    <ClInclude Include="DBLock.h" />
+    <ClInclude Include="DBQuery.h" />
+    <ClInclude Include="DBString.h" />
+    <ClInclude Include="DefaultAutotext.h" />
+    <ClInclude Include="DefListFilter.h" />
+    <ClInclude Include="DevShellAttributes.h" />
+    <ClInclude Include="DevShellService.h" />
+    <ClInclude Include="Directories.h" />
+    <ClInclude Include="DragDropTreeCtrl.h" />
+    <ClInclude Include="EDCNT.H" />
+    <ClInclude Include="EdCntCWnd.h" />
+    <ClInclude Include="EdCntCWndVs.h" />
+    <ClInclude Include="EdcntWPF.h" />
+    <ClInclude Include="EdDll.h" />
+    <ClInclude Include="EolTypes.h" />
+    <ClInclude Include="Expansion.h" />
+    <ClInclude Include="ExtractMethodDlg.h" />
+    <ClInclude Include="FastBitmapReader.h" />
+    <ClInclude Include="FastComboBox.h" />
+    <ClInclude Include="FastComboBoxListCtrl.h" />
+    <ClInclude Include="FDictionary.h" />
+    <ClInclude Include="FeatureSupport.h" />
+    <ClInclude Include="FILE.H" />
+    <ClInclude Include="FileFinder.h" />
+    <ClInclude Include="FileId.h" />
+    <ClInclude Include="FileLineMarker.h" />
+    <ClInclude Include="FileList.h" />
+    <ClInclude Include="FileListCombo.h" />
+    <ClInclude Include="FileOutlineFlags.h" />
+    <ClInclude Include="FileTypes.h" />
+    <ClInclude Include="FilterableSet.h" />
+    <ClInclude Include="filterDefs.h" />
+    <ClInclude Include="FilterDlg.h" />
+    <ClInclude Include="FilterEdit.h" />
+    <ClInclude Include="FindInWkspcDlg.h" />
+    <ClInclude Include="FindReferences.h" />
+    <ClInclude Include="FindReferencesResultsFrame.h" />
+    <ClInclude Include="FindReferencesThread.h" />
+    <ClInclude Include="FindSimilarLocation.h" />
+    <ClInclude Include="FindTextDlg.h" />
+    <ClInclude Include="FindUsageDlg.h" />
+    <ClInclude Include="FlatSplitterWnd.h" />
+    <ClInclude Include="focus.h" />
+    <ClInclude Include="FontSettings.h" />
+    <ClInclude Include="Foo.h" />
+    <ClInclude Include="FreezeDisplay.h" />
+    <ClInclude Include="FileVerInfo.h" />
+    <ClInclude Include="GenericComboBox.h" />
+    <ClInclude Include="GenericComboBoxListBox.h" />
+    <ClInclude Include="GenericMultiPrompt.h" />
+    <ClInclude Include="GenericTreeDlg.h" />
+    <ClInclude Include="GetFileText.h" />
+    <ClInclude Include="GotoDlg1.h" />
+    <ClInclude Include="Guesses.h" />
+    <ClInclude Include="HashtagsManager.h" />
+    <ClInclude Include="HeapLook.h" />
+    <ClInclude Include="HookCode.h" />
+    <ClInclude Include="IdeSettings.h" />
+    <ClInclude Include="IEdCnt.h" />
+    <ClInclude Include="IFindTargetWithTree.h" />
+    <ClInclude Include="ImageListManager.h" />
+    <ClInclude Include="ImplementMethods.h" />
+    <ClInclude Include="Import.h" />
+    <ClInclude Include="includesDb.h" />
+    <ClInclude Include="incToken.h" />
+    <ClInclude Include="InferType.h" />
+    <ClInclude Include="inheritanceDb.h" />
+    <ClInclude Include="InsertPathDialog.h" />
+    <ClInclude Include="IntroduceVariable.h" />
+    <ClInclude Include="ITreeDropHandler.h" />
+    <ClInclude Include="IVaService.h" />
+    <ClInclude Include="IVaShellService.h" />
+    <ClInclude Include="IVaVsAddinClient.h" />
+    <ClInclude Include="IVaLicensing.h" />
+    <ClInclude Include="KeyBindings.h" />
+    <ClInclude Include="LayeredWindowHelperST.h" />
+    <ClInclude Include="LBToolBar.h" />
+    <ClInclude Include="license.h" />
+    <ClInclude Include="LicenseMonitor.h" />
+    <ClInclude Include="LiveOutlineFrame.h" />
+    <ClInclude Include="LocalRefactoring.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="locked_set.h" />
+    <ClInclude Include="LOG.H" />
+    <ClInclude Include="LogElapsedTime.h" />
+    <ClInclude Include="LogVersionInfo.h" />
+    <ClInclude Include="macroList.h" />
+    <ClInclude Include="mainThread.h" />
+    <ClInclude Include="MEFCompletionSet.h" />
+    <ClInclude Include="MenuXP\stdafx.h" />
+    <ClInclude Include="Mparse.h" />
+    <ClInclude Include="NavigationBarQuestion.h" />
+    <ClInclude Include="npos.h" />
+    <ClInclude Include="OLEOBJ.H" />
+    <ClInclude Include="OWLDefs.h" />
+    <ClInclude Include="ParenSkipper.h" />
+    <ClInclude Include="PARSE.H" />
+    <ClInclude Include="ParseThrd.h" />
+    <ClInclude Include="ParseWorkItem.h" />
+    <ClInclude Include="PauseRedraw.h" />
+    <ClInclude Include="PooledThreadBase.h" />
+    <ClInclude Include="PopulateTypes.h" />
+    <ClInclude Include="PrivateHeapAllocator.h" />
+    <ClInclude Include="PrivateHeapStringMgr.h" />
+    <ClInclude Include="PROJECT.H" />
+    <ClInclude Include="ProjectInfo.h" />
+    <ClInclude Include="ProjectLoader.h" />
+    <ClInclude Include="QSort.h" />
+    <ClInclude Include="RadStudioPlugin.h" />
+    <ClInclude Include="rbuffer.h" />
+    <ClInclude Include="RecursionClass.h" />
+    <ClInclude Include="RefactoringActive.h" />
+    <ClInclude Include="ReferenceImporter.h" />
+    <ClInclude Include="ReferencesTreeSubclass.h" />
+    <ClInclude Include="ReferencesWndBase.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="RegKeys.h" />
+    <ClInclude Include="remote_heap.h" />
+    <ClInclude Include="RenameFilesDlg.h" />
+    <ClInclude Include="RenameReferencesDlg.h" />
+    <ClInclude Include="rtfdefs.h" />
+    <ClInclude Include="Sanctuary\CheckoutDurationDlg.h" />
+    <ClInclude Include="Sanctuary\ImportLicenseFileDlg.h" />
+    <ClInclude Include="Sanctuary\ISanctuaryClient.h" />
+    <ClInclude Include="Sanctuary\IVaAccessFromAux.h" />
+    <ClInclude Include="Sanctuary\IVaAuxiliaryDll.h" />
+    <ClInclude Include="Sanctuary\RegisterSanctuary.h" />
+    <ClInclude Include="Sanctuary\WebRegistrationPrompt.h" />
+    <ClInclude Include="ScopeInfo.h" />
+    <ClInclude Include="ScreenAttributes.h" />
+    <ClInclude Include="SemiColonDelimitedString.h" />
+    <ClInclude Include="serial_for.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="ShellListener.h" />
+    <ClInclude Include="MethodsSorting\SimpleDiff.h" />
+    <ClInclude Include="SmartFlow\phdl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SmartFlow\phdl_config_production.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SmartFlow\phdl_config_test.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RS|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RS|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_RadVs|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_RadVs|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SolutionFiles.h" />
+    <ClInclude Include="SolutionListener.h" />
+    <ClInclude Include="SolutionLoadState.h" />
+    <ClInclude Include="SortSelectedLinesDlg.h" />
+    <ClInclude Include="SpellBlockInfo.h" />
+    <ClInclude Include="SpellCheckDlg.h" />
+    <ClInclude Include="SpinCriticalSection.h" />
+    <ClInclude Include="SqliteDb.h" />
+    <ClInclude Include="StackSpace.h" />
+    <ClInclude Include="StatusBarAnimator.h" />
+    <ClInclude Include="StatusWnd.h" />
+    <ClInclude Include="StdAfxEd.h" />
+    <ClInclude Include="StringUtils.h" />
+    <ClInclude Include="SubClassWnd.h" />
+    <ClInclude Include="SymbolListCombo.h" />
+    <ClInclude Include="SymbolPositions.h" />
+    <ClInclude Include="SymbolRemover.h" />
+    <ClInclude Include="SymbolTypes.h" />
+    <ClInclude Include="SyntaxColoring.h" />
+    <ClInclude Include="TempSettingOverride.h" />
+    <ClInclude Include="Ter_mfc.h" />
+    <ClInclude Include="TextOutDc.h" />
+    <ClInclude Include="ThreadSafeStr.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TipOfTheDay.h" />
+    <ClInclude Include="TOKEN.H" />
+    <ClInclude Include="TokenW.h" />
+    <ClInclude Include="ToolTipEditCombo.h" />
+    <ClInclude Include="TraceWindowFrame.h" />
+    <ClInclude Include="TransparentBitmapButton.h" />
+    <ClInclude Include="TreeCtrlTT.h" />
+    <ClInclude Include="tree_state_hashtags.h" />
+    <ClInclude Include="Typomatic.h" />
+    <ClInclude Include="UndoContext.h" />
+    <ClInclude Include="UnicodeHelper.h" />
+    <ClInclude Include="UnrealPostfixType.h" />
+    <ClInclude Include="Usage.h" />
+    <ClInclude Include="Utf32CharInfo.h" />
+    <ClInclude Include="VaAddinClient.h" />
+    <ClInclude Include="VaAfxW.h" />
+    <ClInclude Include="VAAutomation17.h" />
+    <ClInclude Include="VaHashtagsFrame.h" />
+    <ClInclude Include="VaHtmlDlg.h" />
+    <ClInclude Include="VASmartSelect.h" />
+    <ClInclude Include="VASmartSelect_Parsing.h" />
+    <ClInclude Include="VASmartSelect_Utils.h" />
+    <ClInclude Include="vaSqliteConfig.h" />
+    <ClInclude Include="VAThemeDraw.h" />
+    <ClInclude Include="VAThemeUtils.h" />
+    <ClInclude Include="VAWatermarks.h" />
+    <ClInclude Include="VA_GDIPlus.h" />
+    <ClInclude Include="VA_MRUs.h" />
+    <ClInclude Include="VaApp.h" />
+    <ClInclude Include="VAAutomation.h" />
+    <ClInclude Include="VABrowseSym.h" />
+    <ClInclude Include="VABrowseMembers.h" />
+    <ClInclude Include="VAClassView.h" />
+    <ClInclude Include="VACompletionBox.h" />
+    <ClInclude Include="VACompletionSet.h" />
+    <ClInclude Include="VACompletionSetEx.h" />
+    <ClInclude Include="DBFile\VADBFile.h" />
+    <ClInclude Include="VADialog.h" />
+    <ClInclude Include="VAFileView.h" />
+    <ClInclude Include="VAHashTable.h" />
+    <ClInclude Include="VaMessages.h" />
+    <ClInclude Include="VAOpenFile.h" />
+    <ClInclude Include="VaOptions.h" />
+    <ClInclude Include="VAParse.h" />
+    <ClInclude Include="VAParseCodeGraph.h" />
+    <ClInclude Include="VAParseCPP.h" />
+    <ClInclude Include="VAParseCS.h" />
+    <ClInclude Include="VAParseHTML.h" />
+    <ClInclude Include="VAParseJS.h" />
+    <ClInclude Include="VAParseRC.h" />
+    <ClInclude Include="VAParseScopeSuggestions.h" />
+    <ClInclude Include="VAParseTextOut.h" />
+    <ClInclude Include="VAParseUC.h" />
+    <ClInclude Include="vaparsevb.h" />
+    <ClInclude Include="VAProgress.h" />
+    <ClInclude Include="VARefactor.h" />
+    <ClInclude Include="VaService.h" />
+    <ClInclude Include="VaTimers.h" />
+    <ClInclude Include="VaTree.h" />
+    <ClInclude Include="VAWorkspaceViews.h" />
+    <ClInclude Include="Vc6RefResultsCloneToolwnd.h" />
+    <ClInclude Include="vsFormatOption.h" />
+    <ClInclude Include="VSNetIconDefs.h" />
+    <ClInclude Include="VsSnippetLoader.h" />
+    <ClInclude Include="VsSnippetManager.h" />
+    <ClInclude Include="VsToolWindowPane.h" />
+    <ClInclude Include="Win32Heap.h" />
+    <ClInclude Include="WindowsHooks.h" />
+    <ClInclude Include="WindowUtils.h" />
+    <ClInclude Include="WorkSpaceTab.h" />
+    <ClInclude Include="WPF_ViewManager.h" />
+    <ClInclude Include="WrapCheck.h" />
+    <ClInclude Include="wt_stdlib.h" />
+    <ClInclude Include="WTComBSTR.h" />
+    <ClInclude Include="wtcsym.h" />
+    <ClInclude Include="WtException.h" />
+    <ClInclude Include="WTFStream.h" />
+    <ClInclude Include="WTString.h" />
+    <ClInclude Include="Addin\BuyTryDlg.h" />
+    <ClInclude Include="Addin\BuyTryDlg_Strings.h" />
+    <ClInclude Include="Addin\EditCntrlWnd.h" />
+    <ClInclude Include="Addin\EditParentWnd.h" />
+    <ClInclude Include="Addin\MiniHelpFrm.h" />
+    <ClInclude Include="Addin\NonViewSplitter.h" />
+    <ClInclude Include="Addin\Register.h" />
+    <ClInclude Include="Addin\Register_Strings.h" />
+    <ClInclude Include="Addin\ToolTipButton.h" />
+    <ClInclude Include="Addin\ToolTipEditView.h" />
+    <ClInclude Include="..\..\..\3rdParty\Armadillo\Armadillo.h" />
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArm.h" />
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorArmBase.h" />
+    <ClInclude Include="..\WTKeyGen\VAXGeneratorBase.h" />
+    <ClInclude Include="..\WTKeyGen\VAXRenewalGenerator.h" />
+    <ClInclude Include="..\WTKeyGen\WTValidate.h" />
+    <ClInclude Include="..\WTKeyGen\WTValidate_Strings.h" />
+    <ClInclude Include="BuildInfo.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="myspell\munch.h" />
+    <ClInclude Include="myspell\WTHashList.h" />
+    <ClInclude Include="HTMLDialog\DocHostSite.h" />
+    <ClInclude Include="HTMLDialog\Html_Host_Handlers.h" />
+    <ClInclude Include="HTMLDialog\HtmlCtrl.h" />
+    <ClInclude Include="HTMLDialog\HtmlDialog.h" />
+    <ClInclude Include="HTMLDialog\HtmlScript.h" />
+    <ClInclude Include="..\VATE\AutoTextDlgParams.h" />
+    <ClInclude Include="..\common\AssignOnExit.h" />
+    <ClInclude Include="..\common\AutoHandle.h" />
+    <ClInclude Include="..\common\call_mem_fun.h" />
+    <ClInclude Include="..\common\ConsoleWnd.h" />
+    <ClInclude Include="..\common\DeletePtr.h" />
+    <ClInclude Include="..\common\FileVerInfo.h" />
+    <ClInclude Include="..\common\GlobalString.h" />
+    <ClInclude Include="..\common\Library.h" />
+    <ClInclude Include="..\common\PerfTimer.h" />
+    <ClInclude Include="..\common\TempAssign.h" />
+    <ClInclude Include="..\common\ThreadName.h" />
+    <ClInclude Include="MenuXP\ButtonXP.h" />
+    <ClInclude Include="MenuXP\ComboBoxXP.h" />
+    <ClInclude Include="MenuXP\Draw.h" />
+    <ClInclude Include="MenuXP\MenuXP.h" />
+    <ClInclude Include="MenuXP\StatusBarXP.h" />
+    <ClInclude Include="MenuXP\ToolbarXP.h" />
+    <ClInclude Include="MenuXP\Tools.h" />
+    <ClInclude Include="..\VAOpsWin\VaOpsWinParams.h" />
+    <ClInclude Include="AutoUpdate\AutoUpdater.h" />
+    <ClInclude Include="AutoUpdate\WTAutoUpdater.h" />
+    <ClInclude Include="LockWindow.h" />
+    <ClInclude Include="RedirectRegistryToVA.h" />
+    <ClInclude Include="SaveDC.h" />
+    <ClInclude Include="tree_iterator.h" />
+    <ClInclude Include="tree_state.h" />
+    <ClInclude Include="utils_goran.h" />
+    <ClInclude Include="dynwindow\cdxCDynamicDialog.h" />
+    <ClInclude Include="dynwindow\cdxCDynamicWnd.h" />
+    <ClInclude Include="dynwindow\cdxCDynamicWndEx.h" />
+    <ClInclude Include="dynwindow\cdxCSizeIconCtrl.h" />
+    <ClInclude Include="mctree\ColumnTreeCtrl.h" />
+    <ClInclude Include="mctree\ColumnTreeWnd.h" />
+    <ClInclude Include="ColorListControls.h" />
+    <ClInclude Include="DoubleBuffer.h" />
+    <ClInclude Include="DimEditCtrl.h" />
+    <ClInclude Include="ListCtrl2008.h" />
+    <ClInclude Include="ListCtrlFixedGrid.h" />
+    <ClInclude Include="XButtonXP\CreateGrayscaleIcon.h" />
+    <ClInclude Include="XButtonXP\OddButton.h" />
+    <ClInclude Include="XButtonXP\XButtonXP.h" />
+    <ClInclude Include="XButtonXP\XThemeHelper.h" />
+    <ClInclude Include="VASeException\SeException.h" />
+    <ClInclude Include="VASeException\StackWalker.h" />
+    <ClInclude Include="VASeException\VASeException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="edcntrl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\editbrowseClear.bmp" />
+    <Image Include="res\editbrowseClear.v11.bmp" />
+    <Image Include="res\editbrowseSearch.bmp" />
+    <Image Include="res\editbrowseSearch.v11.bmp" />
+    <Image Include="res\hashGroupByFile.bmp" />
+    <Image Include="res\hashGroupByFile.v11.bmp" />
+    <Image Include="res\hashGroupByFileDis.bmp" />
+    <Image Include="res\hashGroupByFileDis.v11.bmp" />
+    <Image Include="res\hashGroupByFileSel.bmp" />
+    <Image Include="res\hashGroupByFileSel.v11.bmp" />
+    <Image Include="res\refsNextInGroup.bmp" />
+    <Image Include="res\refsNextInGroup.v11.bmp" />
+    <Image Include="res\refsNextInGroupDis.bmp" />
+    <Image Include="res\refsNextInGroupDis.v11.bmp" />
+    <Image Include="res\refsNextInGroupSel.bmp" />
+    <Image Include="res\refsNextInGroupSel.v11.bmp" />
+    <Image Include="res\refsPrevInGroup.bmp" />
+    <Image Include="res\refsPrevInGroup.v11.bmp" />
+    <Image Include="res\refsPrevInGroupDis.bmp" />
+    <Image Include="res\refsPrevInGroupDis.v11.bmp" />
+    <Image Include="res\refsPrevInGroupSel.bmp" />
+    <Image Include="res\refsPrevInGroupSel.v11.bmp" />
+    <Image Include="res\VSNETSymbols12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\3rdParty\Business Components Gallery\BCGControlBar\BCGControlBarStatic.vcxproj">
+      <Project>{59e29087-5211-41bc-aa71-39f22bfec040}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\3rdParty\crypto++\cryptlib.vcxproj">
+      <Project>{b300681d-13ad-4c30-8946-97c1760f26ca}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\3rdParty\madCodeHook\madCodeHook3src\madCHook.vcxproj">
+      <Project>{9e5adf0c-ec9d-4950-a8eb-457a2c24518d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\vaIPC\vaIPC\vaIPC.vcxproj">
+      <Project>{966aebac-b5cc-4386-8f66-6ecf12d4ffe5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="bc\BorlandOWL.vcxproj">
+      <Project>{b63f57a3-9b7e-49f0-b855-97fafe2703a4}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\tests\EdTests\VA.natvis" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EdCntrl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

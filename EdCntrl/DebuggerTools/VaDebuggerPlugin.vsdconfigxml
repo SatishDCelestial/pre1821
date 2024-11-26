@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used to describe the debugger plugin component. This file is run through 
+vsdconfigtool.exe as part of the build, which generates two other files:
+
+* VaDebuggerPlugin.Contract.h contains a C++ class header, and ensures that the code and 
+configuration stay in sync.
+
+* VaDebuggerPlugin.vsdconfig is a binary version of this file which is deployed along with 
+VA_X.dll. VaDebuggerPlugin.vsdconfig is then read by he component loading system at runtime.
+
+For more information about this file, see 'Component discovery and configuration' in readme.docx
+-->
+
+<Configuration xmlns="http://schemas.microsoft.com/vstudio/vsdconfig/2008">
+  <DefineGuid Name="guidVaDebuggerComponentId" Value="9ba55495-f5ca-4317-aa36-ffb66bd72797"/>
+  <NativeComponent
+    ComponentId="guidVaDebuggerComponentId"
+    ComponentLevel="9995000"
+    ModuleName="VA_X.dll">    <!-- This is used only in vs2012-vs2013, so ModuleName does not need to be config-dependent. -->
+    <!--NOTE: For more information on ComponentLevel, see the 'Component Levels' section of readme.docx-->
+
+    <Class Name="VaDebuggerPluginService" ClassId="a7825ad8-6ea8-4d4b-b067-e799c58d1248">
+
+      <Implements>
+        <InterfaceGroup Priority="Normal">
+          <Filter>
+            <LanguageId RequiredValue="DkmLanguageId.Cpp"/>
+            <LanguageId RequiredValue="DkmLanguageId.C"/>
+            <!-- <LanguageId RequiredValue="DkmLanguageId.CSharp"/> -->
+            <RuntimeId RequiredValue="DkmRuntimeId.Native"/>
+            <!-- <RuntimeId RequiredValue="DkmRuntimeId.Clr"/> -->
+            <!-- <RuntimeId RequiredValue="DkmRuntimeId.ClrNativeCompilation"/> -->
+            <RuntimeId RequiredValue="DkmRuntimeId.Gpu"/>
+            <RuntimeId RequiredValue="DkmRuntimeId.GpuInterop"/>
+          </Filter>
+<!--           <Interface Name="IDkmCallStackFilter"/> -->
+          <Interface Name="IDkmLanguageStepIntoFilterCallback"/>
+        </InterfaceGroup>
+      </Implements>
+    </Class>
+  
+  </NativeComponent>
+</Configuration>

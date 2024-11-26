@@ -1,0 +1,10 @@
+EXPORTS
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	GetVaService		PRIVATE
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	VAGraphCallback		PRIVATE
+	PeekMessageWHook	PRIVATE
+	DispatchMessageAHook	PRIVATE
+	DispatchMessageWHook	PRIVATE

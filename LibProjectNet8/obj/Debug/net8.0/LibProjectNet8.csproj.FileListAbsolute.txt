@@ -1,0 +1,15 @@
+C:\Temp\LibProjectNet8\bin\Debug\net8.0\LibProjectNet8.deps.json
+C:\Temp\LibProjectNet8\bin\Debug\net8.0\LibProjectNet8.dll
+C:\Temp\LibProjectNet8\bin\Debug\net8.0\LibProjectNet8.pdb
+C:\Temp\LibProjectNet8\bin\Debug\net8.0\LibProjectNet6.dll
+C:\Temp\LibProjectNet8\bin\Debug\net8.0\LibProjectNet6.pdb
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.csproj.AssemblyReference.cache
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.AssemblyInfoInputs.cache
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.AssemblyInfo.cs
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.csproj.CoreCompileInputs.cache
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProje.6C2B5032.Up2Date
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.dll
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\refint\LibProjectNet8.dll
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\LibProjectNet8.pdb
+C:\Temp\LibProjectNet8\obj\Debug\net8.0\ref\LibProjectNet8.dll
